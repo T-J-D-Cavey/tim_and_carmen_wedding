@@ -1,33 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useSelector } from 'react-redux'
+import { is_correct_selector } from './redux/main_slice';
+import { Password_modal } from './componants/Password_modal';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const is_correct = useSelector(is_correct_selector);
+
+  if(!is_correct) {
+    return (
+      <>
+        <Password_modal />
+      </>
+    )
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <p className="read-the-docs">This represents the homepage, which should only be visible once the password has been submitted!</p>
     </>
   )
 }
