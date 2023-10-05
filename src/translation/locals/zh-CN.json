@@ -1,0 +1,14 @@
+{
+    "password": {
+        "password_open": "xxxxxx",
+        "password_title": "xxxxxx",
+        "placeholder": "xxxxxx",
+        "alert": "xxxxxx",
+        "close": "xxxxxx",
+        "submit": "xxxxxx"
+    },
+    "homepage": {
+        "example": "xxxxxx"
+    },
+    "test": "xxxxxx"
+}

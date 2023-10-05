@@ -23,7 +23,7 @@ export function Password_modal() {
       localStorage.setItem('tim_and_carmen_password', 'is_in_local_storage');
     }
     else {
-      alert('Incorrect password');
+      alert("Incorrect password. Please try again.");
       dispatch(set_show_modal(false));
     }
     dispatch(set_password_input(''));
@@ -46,7 +46,7 @@ export function Password_modal() {
                 type="text"
                 placeholder="enter password here"
                 autoFocus
-                onChange={(e) => dispatch(set_password_input(e.target.value))}
+                onChange={(e) => dispatch(set_password_input(e.target.value.toLowerCase()))}
               />
             </Form.Group>
           </Form>

@@ -6,6 +6,7 @@ export interface store_state_interface {
         in_local_storage: boolean;
         password_input: string;
         show_modal: boolean;
+        language: string;
     }
 }
 
@@ -15,7 +16,8 @@ const main_slice = createSlice({
         is_correct: false,
         in_local_storage: false,
         password_input: '',
-        show_modal: true
+        show_modal: true,
+        language: 'en'
     },
     reducers: {
         set_is_correct: (state, action) => {
@@ -29,6 +31,9 @@ const main_slice = createSlice({
         },
         set_show_modal: (state, action) => {
             state.show_modal = action.payload;
+        },
+        set_language: (state, action) => {
+            state.language = action.payload;
         }
     }
 })
@@ -49,6 +54,10 @@ export const show_modal_selector = (state: store_state_interface) => {
     return state.main.show_modal;
 }
 
-export const { set_is_correct, set_in_local_storage, set_password_input, set_show_modal } = main_slice.actions; 
+export const language_selector = (state: store_state_interface) => {
+    return state.main.language;
+}
+
+export const { set_is_correct, set_in_local_storage, set_password_input, set_show_modal, set_language } = main_slice.actions; 
 
 export const main_reducer = main_slice.reducer;
