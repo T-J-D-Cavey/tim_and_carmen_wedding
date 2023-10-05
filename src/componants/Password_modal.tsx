@@ -1,18 +1,18 @@
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
-import { set_is_correct } from '../redux/main_slice';
+import { set_is_correct, show_modal_selector, set_show_modal, password_input_selector, set_password_input } from '../redux/main_slice';
 
 export function Password_modal() {
   // To consider: moving this state logic into the main slice state:
-  const [show, setShow] = useState(true);
-  const [input, setInput] = useState('')
   const dispatch = useDispatch();
+  const showModal = useSelector(show_modal_selector);
+  const input = useSelector(password_input_selector);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => dispatch(set_show_modal(false));
+  const handleShow = () => dispatch(set_show_modal(true));
   // Need to store password in another file and folder in an object and import it here: 
   const password = 'test';
   // Need to find the type for these event parameters:
@@ -20,11 +20,11 @@ export function Password_modal() {
     //  need to set up the local storage logic so succesful password is added to local storage
     if(input === password) {
       dispatch(set_is_correct(true));
-      setShow(false)
+      dispatch(set_show_modal(false));
     }
     else {
       alert('Incorrect password');
-      // setShow(false)
+      dispatch(set_show_modal(false));
     }
   }
 
@@ -36,7 +36,7 @@ export function Password_modal() {
         Submit password to enter site
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
           Submit password to enter site:
         </Modal.Header>
@@ -47,7 +47,7 @@ export function Password_modal() {
                 type="text"
                 placeholder="enter password here"
                 autoFocus
-                onChange={(e) => setInput(e.target.value)}
+                onChange={(e) => dispatch(set_password_input(e.target.value))}
               />
             </Form.Group>
           </Form>
