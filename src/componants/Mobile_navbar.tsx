@@ -8,7 +8,7 @@ export function Mobile_navbar() {
     const { t } = useTranslation();
 
     return (
-        <div>
+        <div className='mob_nav_container'>
             <Navbar key={'xxl'} expand={'xxl'} className="bg-body-tertiary mb-3">
               <Container fluid>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'xxl'}`} />

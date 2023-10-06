@@ -8,6 +8,7 @@ import { Homepage } from './componants/pages/Homepage.tsx';
 import { About_us } from './componants/pages/About_us.tsx';
 import { Malaysia_page } from './componants/pages/Malaysia_page.tsx';
 import { UK_page } from './componants/pages/UK_page.tsx';
+import { Footer } from './componants/Footer.tsx';
 import './App.css'
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path="uk-celebration" element={<UK_page />} />
         <Route  path="*" element={<Navigate to="/" />}/>
       </Routes>
+      <Footer />
     </>
   )
 }
