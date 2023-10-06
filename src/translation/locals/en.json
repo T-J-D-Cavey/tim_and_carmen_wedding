@@ -1,14 +1,11 @@
 {
-    "password": {
-        "password_open": "Submit password to enter site",
-        "password_title": "Submit password to enter site:",
-        "placeholder": "enter password here",
-        "alert": "Incorrect password. Please try again.",
-        "close": "Close",
-        "submit": "Submit"
-    },
-    "homepage": {
-        "example": "This is an example"
-    },
+    "password_open": "Submit password to enter site",
+    "password_title": "Submit password to enter site:",
+    "placeholder": "enter password here",
+    "alert": "Incorrect password. Please try again.",
+    "close": "Close",
+    "submit": "Submit",
+    "langauge": "Choose langauge: ",
+    "homepage": "tbc",
     "test": "this test worked"
 }

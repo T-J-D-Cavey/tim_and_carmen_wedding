@@ -1,14 +1,11 @@
 {
-    "password": {
-        "password_open": "xxxxxx",
-        "password_title": "xxxxxx",
-        "placeholder": "xxxxxx",
-        "alert": "xxxxxx",
-        "close": "xxxxxx",
-        "submit": "xxxxxx"
-    },
-    "homepage": {
-        "example": "xxxxxx"
-    },
-    "test": "xxxxxx"
+    "password_open": "xx",
+    "password_title": "xxx",
+    "placeholder": "xxxx",
+    "alert": "xxxxx",
+    "close": "xxxxxx",
+    "submit": "xxxxxx",
+    "langauge": "tbccc: ",
+    "homepage": "x",
+    "test": "xx"
 }

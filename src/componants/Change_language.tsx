@@ -1,25 +1,23 @@
 import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
 import { set_language, language_selector } from '../redux/main_slice';
 import { useTranslation } from "react-i18next";
-import i18n from '../translation/i18n';
 
 export function Change_language() {
     const dispatch = useDispatch();
     const language = useSelector(language_selector);
-    const { t } = useTranslation(); 
+    const { t, i18n } = useTranslation();
 
-    // Will be much better logic, this is just a test:
     function handleClick() {
-        if(language === 'en') {
-            dispatch(set_language('zh-CN'));
-            i18n.changeLanguage('zh-CN');
-        } else {
-            dispatch(set_language('en'));
-            i18n.changeLanguage('en');
-        }
+        const new_language = language === 'en' ? 'zh-CN' : 'en';
+        dispatch(set_language(new_language));
     }
-    // will use much better button:
+    
+    useEffect(() => {
+        i18n.changeLanguage(language)
+    }, [language, i18n])
+    // will use bootstrap button and/or add an image flag icon
     return (
-        <button onClick={handleClick}>{t('test')}</button>
+        <button onClick={handleClick}>{t("langauge")}</button>
     )
 }

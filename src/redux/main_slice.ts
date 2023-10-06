@@ -16,7 +16,7 @@ const main_slice = createSlice({
         is_correct: false,
         in_local_storage: false,
         password_input: '',
-        show_modal: true,
+        show_modal: false,
         language: 'en'
     },
     reducers: {
