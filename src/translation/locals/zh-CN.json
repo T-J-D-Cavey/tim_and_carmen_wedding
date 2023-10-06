@@ -6,6 +6,12 @@
     "close": "xxxxxx",
     "submit": "xxxxxx",
     "langauge": "tbccc: ",
+    "home_nav": "xxxxhome",
+    "about_nav": "xxxxAbout us",
+    "malay_nav": "xxxxMalaysia",
+    "uk_nav": "xxxxUK",
     "homepage": "xxxx homepage copy tbc xxxx",
-    "test": "xx"
+    "about": "xxx about us copy tbc xxx",
+    "malay_page": "xxx malay wedding copy tbc",
+    "uk_page": "xxxuk wedding copy tbc"
 }

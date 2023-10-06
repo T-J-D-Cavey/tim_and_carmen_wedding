@@ -1,9 +1,13 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { is_correct_selector, set_in_local_storage, in_local_storage_selector } from './redux/main_slice';
 import { Password_modal } from './componants/Password_modal';
-import { Change_language } from './componants/Change_language.tsx';
-import { Homepage } from './componants/Homepage';
+import { Navbar } from './componants/Navbar.tsx';
+import { Mobile_navbar } from './componants/Mobile_navbar.tsx';
+import { Homepage } from './componants/pages/Homepage.tsx';
+import { About_us } from './componants/pages/About_us.tsx';
+import { Malaysia_page } from './componants/pages/Malaysia_page.tsx';
+import { UK_page } from './componants/pages/UK_page.tsx';
 import './App.css'
 
 function App() {
@@ -26,10 +30,14 @@ function App() {
   return (
     // I need to set up routes here. There might be an error when loading the password modal when not in a route but let's see. 
     <>
-      <Change_language />
+      <Navbar />
+      <Mobile_navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/about-us" element={<h1>this works</h1>} />
+        <Route path="/about-us" element={<About_us />} />
+        <Route path="/malaysia-celebration" element={<Malaysia_page />} />
+        <Route path="uk-celebration" element={<UK_page />} />
+        <Route  path="*" element={<Navigate to="/" />}/>
       </Routes>
     </>
   )

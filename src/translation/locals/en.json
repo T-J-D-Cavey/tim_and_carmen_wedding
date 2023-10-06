@@ -6,6 +6,12 @@
     "close": "Close",
     "submit": "Submit",
     "langauge": "Choose langauge: ",
+    "home_nav": "Home",
+    "about_nav": "About us",
+    "malay_nav": "Malaysia",
+    "uk_nav": "UK",
     "homepage": "homepage copy tbc",
-    "test": "this test worked"
+    "about": "about us copy tbc",
+    "malay_page": "malay wedding copy tbc",
+    "uk_page": "uk wedding copy tbc"
 }
