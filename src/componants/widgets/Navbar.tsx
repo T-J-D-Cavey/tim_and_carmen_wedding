@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 
 export function Navbar() {
     const { t } = useTranslation();
+
+    // Need to write logic here for when the window.scrollY is move then 0, the box shadow style gets added to the nav container:
     
     return (
         <nav className='desktop_nav_container'>

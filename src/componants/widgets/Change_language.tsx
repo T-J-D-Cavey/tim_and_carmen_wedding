@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { set_language, language_selector } from '../redux/main_slice';
+import { set_language, language_selector } from '../../redux/main_slice';
 import { useTranslation } from "react-i18next";
 
 export function Change_language() {
@@ -18,6 +18,8 @@ export function Change_language() {
     }, [language, i18n])
     // will use bootstrap button and/or add an image flag icon
     return (
-        <button onClick={handleClick}>{t("langauge")}</button>
+        <div className='lang-btn-container'>
+            <button onClick={handleClick}>{t("langauge")}</button>
+        </div>
     )
 }

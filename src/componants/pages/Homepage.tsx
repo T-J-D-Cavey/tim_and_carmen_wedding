@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Change_language } from "../Change_language";
+import { Change_language } from "../widgets/Change_language";
 import { Wedding_bells } from '../audio_componants/Wedding_bells';
 
 export function Homepage() {

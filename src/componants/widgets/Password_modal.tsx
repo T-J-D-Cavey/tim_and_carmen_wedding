@@ -4,8 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import { useTranslation } from "react-i18next";
-import { password } from '../assets/auth/password_object';
-import { set_is_correct, show_modal_selector, set_show_modal, password_input_selector, set_password_input } from '../redux/main_slice';
+import { password } from '../../assets/auth/password_object';
+import { set_is_correct, show_modal_selector, set_show_modal, password_input_selector, set_password_input } from '../../redux/main_slice';
 import { Change_language } from './Change_language';
 
 export function Password_modal() {
