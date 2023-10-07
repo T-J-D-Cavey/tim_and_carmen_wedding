@@ -55,6 +55,7 @@ table {
     align-items: center;
     position: sticky;
     top: 0;
+    background-color: #fff;
 }
 
 .desktop_nav_container ul {
@@ -75,8 +76,59 @@ table {
     align-items: center;
 }
 
+/* ---->>>> Home page: */
+.main-image {
+    width: 90%;
+    max-width: 25rem;
+    min-width: 16rem;
+    height: 50vh;
+    max-height: 40rem;
+    min-height: 25rem;
+    background-size: cover;
+    background-position: center top;
+    margin: 0 auto;
+    border-radius: 50%;
+}
 
+.i1 {
+    background-image: url('../public/images/smallbutgreat.jpg');
+}
 
+.i2 {
+    background-image: url('../public/images/agoodwtfbubba.jpg');
+}
+
+.i3 {
+    background-image: url('../public/images/anotherwtfbubba.jpg');
+}
+
+.i4 {
+    background-image: url('../public/images/black\ eye.jpg');
+}
+
+.i5 {
+    background-image: url('../public/images/boner.jpg');
+}
+
+.i6 {
+    background-image: url('../public/images/boneragain.jpg');
+}
+
+.i7 {
+    background-image: url('../public/images/brightbutgood.jpg');
+}
+
+.i8 {
+    background-image: url('../public/images/greyface.jpg');
+}
+
+.i9 {
+    background-image: url('../public/images/red\ face.jpg');
+}
+
+.i10 {
+    background-image: url('../public/images/wtfbubby.jpg');
+}
 
 
 
