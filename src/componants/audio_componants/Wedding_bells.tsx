@@ -1,12 +1,11 @@
 import { useEffect, useRef } from 'react';
 
-import audioFile from './path-to-your-audio-file.mp3'; // Import your audio file
+import audioFile from './wedding_bells_audio.wav';
 
-const App: React.FC = () => {
+export function Wedding_bells() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    // Play the audio once the component mounts
     if (audioRef.current) {
       audioRef.current.play();
     }
@@ -15,7 +14,6 @@ const App: React.FC = () => {
   return (
     <div>
       <audio ref={audioRef} src={audioFile} autoPlay />
-      {/* Your main app content */}
     </div>
   );
-};
+}
