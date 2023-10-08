@@ -1,3 +1,11 @@
+/* ---->>>> Variables: */
+
+:root {
+    --font-type-h1: 'Cormorant Garamond', serif;
+    --font-other:'Dancing Script', cursive;
+    --foot-another: 'Kaushan Script', cursive;
+}
+
 /* ---->>>> reset: */
 
 html, body, div, span, applet, object, iframe,
@@ -134,13 +142,33 @@ table {
 /* ---->>>> Page section styles: */
 .section {
     height: 100vh;
-    max-height: 60rem;
+    max-height: 80rem;
     min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.section:nth-child(odd) {
+    background-color: rgb(87, 96, 72);
+}
+
+.section:nth-child(even) {
+    background-color: #E6D6C4;
 }
 
 /* ---->>>> Footer: */
 .home_hero {
-    background-color: aqua;
+    justify-content: space-between;
+}
+
+.home_hero > * {
+    margin: 2rem 0;
+    font-family: var(--font-type-h1);
+    /* font size to be replaced with variables once set up and fonts chosen: */
+    font-size: 6rem;
 }
 
 
@@ -173,5 +201,9 @@ footer {
     .desktop_nav_container {
         display: none;
     } 
+    .home_hero > * {
+        margin: 1rem 0 2rem 0;
+        font-size: 3.5rem;
+    }
 }
 

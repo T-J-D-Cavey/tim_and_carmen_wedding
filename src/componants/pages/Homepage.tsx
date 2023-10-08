@@ -33,7 +33,9 @@ export function Homepage() {
             <Wedding_bells />
             <div ref={heroElement} className="section home_hero">
                 <div className="box">
-                    <h1>{t("homepage_tim_and_carmen")}</h1>
+                    <h1>{t("homepage_tim")}</h1>
+                    <h1>{t("homepage_and")}</h1>
+                    <h1>{t("homepage_carmen")}</h1>
                 </div>
                 <div className="box">
                     <h2>{t("homepage_2024")}</h2>
