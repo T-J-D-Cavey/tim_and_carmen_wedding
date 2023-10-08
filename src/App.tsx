@@ -29,7 +29,6 @@ function App() {
   }
 
   return (
-    // I need to set up routes here. There might be an error when loading the password modal when not in a route but let's see. 
     <>
       <Navbar />
       <Mobile_navbar />

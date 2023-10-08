@@ -10,16 +10,16 @@ export function Navbar() {
         <nav className='desktop_nav_container'>
             <ul>
                 <li>
-                  <NavLink to="/">{t("home_nav")}</NavLink>
+                  <NavLink to="/">{t("nav_home")}</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about-us">{t("about_nav")}</NavLink>
+                  <NavLink to="/about-us">{t("nav_about")}</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/malaysia-celebration">{t("malay_nav")}</NavLink>
+                  <NavLink to="/malaysia-celebration">{t("nav_malay")}</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/uk-celebration">{t("uk_nav")}</NavLink>
+                  <NavLink to="/uk-celebration">{t("nav_uk")}</NavLink>
                 </li>
             </ul>
         </nav>

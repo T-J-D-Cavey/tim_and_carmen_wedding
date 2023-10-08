@@ -27,7 +27,7 @@ export function Password_modal() {
       localStorage.setItem('tim_and_carmen_password', 'is_in_local_storage');
     }
     else {
-      alert(t("alert"));
+      alert(t("password_alert"));
       dispatch(set_show_modal(false));
     }
     dispatch(set_password_input(''));
@@ -49,7 +49,7 @@ export function Password_modal() {
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Control
                 type="text"
-                placeholder={t("placeholder")}
+                placeholder={t("password_placeholder")}
                 autoFocus
                 onChange={(e) => dispatch(set_password_input(e.target.value.toLowerCase()))}
               />
@@ -58,10 +58,10 @@ export function Password_modal() {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            {t("close")}
+            {t("button_close")}
           </Button>
           <Button variant="primary" onClick={handleSubmit}>
-            {t("submit")}
+            {t("button_submit")}
           </Button>
         </Modal.Footer>
       </Modal>

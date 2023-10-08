@@ -4,10 +4,15 @@ import audioFile from './wedding_bells_audio.wav';
 
 export function Wedding_bells() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
-
+// Getting an error message, need to consider a catch
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.play();
+      if (typeof audioRef.current.play === 'function') {
+        audioRef.current.play();
+        console.log('what the faaaaack')
+      }
+      else {
+      }
     }
   }, []);
 

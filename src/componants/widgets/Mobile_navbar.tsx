@@ -9,8 +9,8 @@ export function Mobile_navbar() {
 
     return (
         <div className='mob_nav_container'>
-            <Navbar key={'xxl'} expand={'xxl'} className="bg-body-tertiary mb-3">
-              <Container fluid>
+            <Navbar key={'xxl'} expand={'xxl'} className="bg-body-tertiary">
+              <Container className='mob_nav' fluid>
                 <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'xxl'}`} />
                 <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-${'xxl'}`}
@@ -23,10 +23,10 @@ export function Mobile_navbar() {
                   </Offcanvas.Header>
                   <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
-                      <Nav.Link href="/">{t("home_nav")}</Nav.Link>
-                      <Nav.Link href="/about-us">{t("about_nav")}</Nav.Link>
-                      <Nav.Link href="/malaysia-celebration">{t("malay_nav")}</Nav.Link>
-                      <Nav.Link href="uk-celebration">{t("uk_nav")}</Nav.Link>
+                      <Nav.Link href="/">{t("nav_home")}</Nav.Link>
+                      <Nav.Link href="/about-us">{t("nav_about")}</Nav.Link>
+                      <Nav.Link href="/malaysia-celebration">{t("nav_malay")}</Nav.Link>
+                      <Nav.Link href="uk-celebration">{t("nav_uk")}</Nav.Link>
                     </Nav>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>
