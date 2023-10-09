@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useTranslation } from "react-i18next";
+import { Change_language } from './Change_language';
 
 export function Mobile_navbar() {
     const { t } = useTranslation();
@@ -26,6 +27,7 @@ export function Mobile_navbar() {
                       <Nav.Link href="/">{t("nav_home")}</Nav.Link>
                       <Nav.Link href="/malaysia-celebration">{t("nav_malay")}</Nav.Link>
                       <Nav.Link href="uk-celebration">{t("nav_uk")}</Nav.Link>
+                      <Change_language />
                     </Nav>
                   </Offcanvas.Body>
                 </Navbar.Offcanvas>

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Change_language } from "./Change_language";
 import { useTranslation } from "react-i18next";
 
 export function Navbar() {
@@ -17,6 +18,9 @@ export function Navbar() {
                 </li>
                 <li>
                   <NavLink to="/uk-celebration">{t("nav_uk")}</NavLink>
+                </li>
+                <li>
+                  <Change_language />
                 </li>
             </ul>
         </nav>

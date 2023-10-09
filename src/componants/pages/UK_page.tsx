@@ -1,4 +1,3 @@
-import { Change_language } from "../widgets/Change_language";
 import { useTranslation } from "react-i18next";
 
 export function UK_page() {
@@ -6,7 +5,6 @@ export function UK_page() {
 
     return (
         <>
-            <Change_language />
             {t("uk_page")}
         </>
     )

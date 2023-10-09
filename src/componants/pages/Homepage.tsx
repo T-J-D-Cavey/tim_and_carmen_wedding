@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { throttle } from 'lodash';
-import { Change_language } from "../widgets/Change_language";
 import { Wedding_bells } from '../audio_componants/Wedding_bells';
 
 
@@ -14,16 +13,15 @@ export function Homepage() {
 
     function handle_scroll_effects() {
         const hero_element_coords = heroElement.current!.getBoundingClientRect();
-        console.log(hero_element_coords.top)
-        if(hero_element_coords.top <= 0) {
+        if(hero_element_coords.top <= 20) {
             heroElement.current!.classList.add('showH1');
         }
-        if(hero_element_coords.bottom <= 0 || hero_element_coords.top > 0) {
+        if(hero_element_coords.bottom <= 250 || hero_element_coords.top > 20) {
             heroElement.current!.classList.remove('showH1');
         }
     }
 
-    // I have hard coded the height of the mobile nav and the language component. 
+    // I have hard coded the height of the mobile and desktop nav. 
     // I need to check both of these heights are correct for mobile at end of project or adjust:
     useEffect(() => {
         setHeight();
@@ -38,7 +36,7 @@ export function Homepage() {
 
     function setHeight() {
         if(heroElement) {
-            const height = window.innerHeight - 88;
+            const height = window.innerHeight - 56;
             const hero_banner_element = heroElement.current;
             if(hero_banner_element) {
                 heroElement.current!.style.height = `${height}px`
@@ -48,7 +46,6 @@ export function Homepage() {
 
     return (
         <div>
-            <Change_language />
             <Wedding_bells />
             <div ref={heroElement} className="section home_hero">
                 <div className='hero_background'></div>
@@ -63,7 +60,7 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="section">
+            <div className="section hope_container">
                 <div className="box">
                     <p>{t("homepage_celebrate")}</p>
                 </div>

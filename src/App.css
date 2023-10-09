@@ -36,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -64,13 +65,13 @@ table {
     position: sticky;
     top: 0;
     background-color: #fff;
-    z-index: 10;
+    z-index: 2;
 }
 
 .mob_nav_container {
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 2;
 }
 
 .desktop_nav_container ul {
@@ -95,7 +96,6 @@ table {
 
 
 /* ---->>>> Page section styles: */
-/* ---->>>> Home page: */
 .section {
     height: 100vh;
     max-height: 80rem;
@@ -105,6 +105,7 @@ table {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    font-family: var(--font-other);
 }
 
 .section:nth-child(odd) {
@@ -115,11 +116,12 @@ table {
     background-color: #E6D6C4;
 }
 
-/* ---->>>> Footer: */
+/* ---->>>> Home page: */
+
 .home_hero {
     justify-content: center;
     position: relative;
-
+    z-index: 5;
 }
 
 .hero_background {
@@ -133,6 +135,7 @@ table {
     background-position: 57% top;
     transition: all 0.5s;
     filter: blur(0px);
+    z-index: 5;
 }
 
 .home_hero.showH1 .hero_background {
@@ -147,12 +150,11 @@ table {
     color: #fff;
 }
 
-
 .home_hero .box {
     opacity: 0;
     display: hidden;
     transition: all 0.5s;
-    z-index: 2;
+    z-index: 20;
 }
 
 .showH1 .box {
@@ -160,6 +162,9 @@ table {
     display: block;
 }
 
+.hope_container .box {
+    font-size: 2rem;
+}
 
 /* ---->>>> Footer: */
 footer {
@@ -176,10 +181,6 @@ footer {
     .mob_nav_container {
         display: none;
     }
-    
-    /* .desktop_nav_container {
-        display: block;
-    }  */
 }
 /* ---->>>> Small screens only: */
 @media screen and (max-width: 499px) {
@@ -192,7 +193,7 @@ footer {
     } 
     .home_hero .box > * {
 
-        font-size: 3.5rem;
+        font-size: 4.1rem;
     }
 }
 
