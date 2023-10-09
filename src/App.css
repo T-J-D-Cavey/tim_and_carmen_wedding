@@ -64,6 +64,13 @@ table {
     position: sticky;
     top: 0;
     background-color: #fff;
+    z-index: 10;
+}
+
+.mob_nav_container {
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .desktop_nav_container ul {
@@ -86,60 +93,9 @@ table {
     align-items: center;
 }
 
-/* ---->>>> Home page: */
-/* .main-image {
-    width: 90%;
-    max-width: 25rem;
-    min-width: 16rem;
-    height: 50vh;
-    max-height: 40rem;
-    min-height: 25rem;
-    background-size: cover;
-    background-position: center top;
-    margin: 0 auto;
-    border-radius: 50%;
-} */
 
-/* .i1 {
-    background-image: url('../public/images/smallbutgreat.jpg');
-}
-
-.i2 {
-    background-image: url('../public/images/agoodwtfbubba.jpg');
-}
-
-.i3 {
-    background-image: url('../public/images/anotherwtfbubba.jpg');
-}
-
-.i4 {
-    background-image: url('../public/images/black\ eye.jpg');
-}
-
-.i5 {
-    background-image: url('../public/images/boner.jpg');
-}
-
-.i6 {
-    background-image: url('../public/images/boneragain.jpg');
-}
-
-.i7 {
-    background-image: url('../public/images/brightbutgood.jpg');
-}
-
-.i8 {
-    background-image: url('../public/images/greyface.jpg');
-}
-
-.i9 {
-    background-image: url('../public/images/red\ face.jpg');
-}
-
-.i10 {
-    background-image: url('../public/images/wtfbubby.jpg');
-} */
 /* ---->>>> Page section styles: */
+/* ---->>>> Home page: */
 .section {
     height: 100vh;
     max-height: 80rem;
@@ -161,14 +117,47 @@ table {
 
 /* ---->>>> Footer: */
 .home_hero {
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
+
 }
 
-.home_hero > * {
-    margin: 2rem 0;
+.hero_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../public/hero_image.jpg');
+    background-size: cover;
+    background-position: 57% top;
+    transition: all 0.5s;
+    filter: blur(0px);
+}
+
+.home_hero.showH1 .hero_background {
+    filter: blur(10px);
+}
+
+.home_hero .box > * {
     font-family: var(--font-type-h1);
     /* font size to be replaced with variables once set up and fonts chosen: */
-    font-size: 6rem;
+    font-size: 6.5rem;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+
+.home_hero .box {
+    opacity: 0;
+    display: hidden;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+.showH1 .box {
+    opacity: 1;
+    display: block;
 }
 
 
@@ -201,8 +190,8 @@ footer {
     .desktop_nav_container {
         display: none;
     } 
-    .home_hero > * {
-        margin: 1rem 0 2rem 0;
+    .home_hero .box > * {
+
         font-size: 3.5rem;
     }
 }

@@ -13,9 +13,6 @@ export function Navbar() {
                   <NavLink to="/">{t("nav_home")}</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about-us">{t("nav_about")}</NavLink>
-                </li>
-                <li>
                   <NavLink to="/malaysia-celebration">{t("nav_malay")}</NavLink>
                 </li>
                 <li>

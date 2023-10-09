@@ -24,7 +24,6 @@ export function Mobile_navbar() {
                   <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
                       <Nav.Link href="/">{t("nav_home")}</Nav.Link>
-                      <Nav.Link href="/about-us">{t("nav_about")}</Nav.Link>
                       <Nav.Link href="/malaysia-celebration">{t("nav_malay")}</Nav.Link>
                       <Nav.Link href="uk-celebration">{t("nav_uk")}</Nav.Link>
                     </Nav>

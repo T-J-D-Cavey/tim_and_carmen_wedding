@@ -5,7 +5,6 @@ import { Password_modal } from './componants/widgets/Password_modal.tsx';
 import { Navbar } from './componants/widgets/Navbar.tsx';
 import { Mobile_navbar } from './componants/widgets/Mobile_navbar.tsx';
 import { Homepage } from './componants/pages/Homepage.tsx';
-import { About_us } from './componants/pages/About_us.tsx';
 import { Malaysia_page } from './componants/pages/Malaysia_page.tsx';
 import { UK_page } from './componants/pages/UK_page.tsx';
 import { Footer } from './componants/widgets/Footer.tsx';
@@ -34,7 +33,6 @@ function App() {
       <Mobile_navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/about-us" element={<About_us />} />
         <Route path="/malaysia-celebration" element={<Malaysia_page />} />
         <Route path="uk-celebration" element={<UK_page />} />
         <Route  path="*" element={<Navigate to="/" />}/>
