@@ -3,7 +3,12 @@
 :root {
     --font-type-h1: 'Cormorant Garamond', serif;
     --font-other:'Dancing Script', cursive;
-    --foot-another: 'Kaushan Script', cursive;
+
+
+    --font-colour-main: #FAF9F6;
+    --font-colour-main-hover: #D3D3D3;
+    --font-colour-other: gold;
+
 }
 
 /* ---->>>> reset: */
@@ -28,6 +33,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
     box-sizing: border-box;
+    color: var(--font-colour-main)
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -53,6 +59,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ---->>>> General styles: */
+a {
+    color: var(--font-colour-main)
+}
+
+a:hover {
+    color: var(--font-colour-main-hover);
+    text-decoration:dotted;
+}
+
+
 
 /* ---->>>> Navs: */
 
@@ -97,15 +115,16 @@ table {
 
 /* ---->>>> Page section styles: */
 .section {
-    height: 100vh;
-    max-height: 80rem;
+    height: 97vh;
+    max-height: 60rem;
     min-height: 20rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-family: var(--font-other);
+    font-family: var(--font-type-h1);
+    font-size: 2rem;
 }
 
 .section:nth-child(odd) {
@@ -122,6 +141,7 @@ table {
     justify-content: center;
     position: relative;
     z-index: 5;
+    max-height: 100rem;
 }
 
 .hero_background {
@@ -162,9 +182,42 @@ table {
     display: block;
 }
 
-.hope_container .box {
-    font-size: 2rem;
+.hope_container .box:nth-child(1) {
+    font-size: 4rem;
+    opacity: 0;
+    display: hidden;
+    transition: all 0.5s;
 }
+
+.hope_container .box:nth-child(1).appear {
+    opacity: 1;
+    display: block;
+}
+
+.hope_container .box:nth-child(2) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8rem;
+}
+
+.box input[name="submit"] {
+    width: 4rem;
+    height: 4rem;
+    animation: 1s infinite ease-in-out alternate pulsatePaypal;
+}
+
+@keyframes pulsatePaypal {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+
 
 /* ---->>>> Footer: */
 footer {
