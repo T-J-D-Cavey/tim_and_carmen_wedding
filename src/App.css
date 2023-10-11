@@ -6,8 +6,8 @@
 
 
     --font-colour-main: #FAF9F6;
-    --font-colour-main-hover: #D3D3D3;
-    --font-colour-other: gold;
+    --font-colour-main-hover: gold;
+    --font-colour-other: #002;
 
 }
 
@@ -82,7 +82,7 @@ a:hover {
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: var(--font-colour-main);
     z-index: 2;
 }
 
@@ -99,6 +99,14 @@ a:hover {
     align-items: center;
     justify-content: space-around;
     margin: 0 1rem;
+}
+
+.mob_nav_container a, .desktop_nav_container a {
+    color: var(--font-colour-other);
+}
+
+.mob_nav_container a:hover, .desktop_nav_container a:hover {
+    color: var(--font-colour-main-hover);
 }
 
 /* ---->>>> Language button: */
@@ -182,21 +190,21 @@ a:hover {
     display: block;
 }
 
-.hope_container {
+.hope_container, .details_container, .paypal_section_container {
     position: relative;
 }
 
-.hope_container::after {
+.hope_container::after, .details_container::after, .paypal_section_container::after {
     content: '';
     position: absolute;
     width: 60%;
-    height: 200px;
+    height: 1px;
     top: 50%;
     left: 20%;
-    background-image: url('../public/images/ivy_border.jpg');
+    border-bottom: 1px solid var(--font-colour-main);
+    /* background-image: url('../public/images/ivy_border.jpg'); */
     background-size: cover;
     background-position: center;
-    background-color: red;
     transform: translateY(-50%);
     z-index: 2;
 }
@@ -213,7 +221,7 @@ a:hover {
     display: block;
 }
 
-.hope_container .box:nth-child(2) {
+.hope_container .box:nth-child(2), .details_container .box:nth-child(2) {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -225,6 +233,13 @@ a:hover {
     width: 4rem;
     height: 4rem;
     animation: 1s infinite ease-in-out alternate pulsatePaypal;
+    position: relative;
+    top: -50px;
+}
+
+.details_container .box:nth-child(1) > *, .paypal_section_container .box:nth-child(1) > * {
+    max-width: 60rem;
+    font-size: 2.75rem;
 }
 
 @keyframes pulsatePaypal {
@@ -266,6 +281,12 @@ footer {
     .home_hero .box > * {
 
         font-size: 4.1rem;
+    }
+
+    .details_container .box:nth-child(1) > *, .paypal_section_container .box:nth-child(1) > * {
+        padding: 0 3rem;
+        max-width: 30rem;
+        font-size: 1.75rem;
     }
 }
 

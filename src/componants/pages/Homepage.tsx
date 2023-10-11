@@ -83,7 +83,7 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="section">
+            <div className="section details_container">
                 <div className="box">
                     <p>{t("homepage_details")}</p>
                 </div>
@@ -96,7 +96,7 @@ export function Homepage() {
                     </li>
                 </ul>
             </div>
-            <div className="section">
+            <div className="section paypal_section_container">
                 <div className="box">
                     <p>{t("homepage_paypal_message")}</p>
                 </div>
