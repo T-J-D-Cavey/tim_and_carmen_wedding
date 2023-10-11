@@ -74,7 +74,7 @@ a:hover {
 
 /* ---->>>> Navs: */
 
-.desktop_nav_container {
+/* .desktop_nav_container {
     height: 56px;
     width: 100vw;
     display: flex;
@@ -90,9 +90,9 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 2;
-}
+} */
 
-.desktop_nav_container ul {
+/* .desktop_nav_container ul {
     display: flex;
     width: 100%;
     max-width: 50rem;
@@ -107,23 +107,24 @@ a:hover {
 
 .mob_nav_container a:hover, .desktop_nav_container a:hover {
     color: var(--font-colour-main-hover);
-}
+} */
 
 /* ---->>>> Language button: */
 .lang-btn-container {
-    /* If this height changes, I need to change code in homepage componant: */
-    height: 32px;
-    width: 9rem;
-    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    z-index: 10;
 }
 
 
 /* ---->>>> Page section styles: */
 .section {
-    height: 97vh;
+    height: 100vh;
     max-height: 60rem;
     min-height: 20rem;
     display: flex;
@@ -148,8 +149,7 @@ a:hover {
 .home_hero {
     justify-content: center;
     position: relative;
-    z-index: 5;
-    max-height: 100rem;
+    z-index: 100;
 }
 
 .hero_background {
@@ -163,7 +163,7 @@ a:hover {
     background-position: 57% top;
     transition: all 0.5s;
     filter: blur(0px);
-    z-index: 5;
+    z-index: 100;
 }
 
 .home_hero.showH1 .hero_background {
@@ -182,7 +182,7 @@ a:hover {
     opacity: 0;
     display: hidden;
     transition: all 0.5s;
-    z-index: 20;
+    z-index: 101;
 }
 
 .showH1 .box {

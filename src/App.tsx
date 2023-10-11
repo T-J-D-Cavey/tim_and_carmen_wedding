@@ -2,11 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { is_correct_selector, set_in_local_storage, in_local_storage_selector } from './redux/main_slice';
 import { Password_modal } from './componants/widgets/Password_modal.tsx';
-import { Navbar } from './componants/widgets/Navbar.tsx';
-import { Mobile_navbar } from './componants/widgets/Mobile_navbar.tsx';
 import { Homepage } from './componants/pages/Homepage.tsx';
-import { Malaysia_page } from './componants/pages/Malaysia_page.tsx';
-import { UK_page } from './componants/pages/UK_page.tsx';
 import { Footer } from './componants/widgets/Footer.tsx';
 import './App.css'
 
@@ -29,17 +25,14 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Mobile_navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/malaysia-celebration" element={<Malaysia_page />} />
-        <Route path="uk-celebration" element={<UK_page />} />
         <Route  path="*" element={<Navigate to="/" />}/>
       </Routes>
       <Footer />
     </>
   )
 }
-
+// Look for file in another github project which contained instructions that made redirect work
+// Netlify otherwise doesn't allow the redirect
 export default App

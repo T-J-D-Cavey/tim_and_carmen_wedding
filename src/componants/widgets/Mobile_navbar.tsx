@@ -7,7 +7,7 @@ import { Change_language } from './Change_language';
 
 export function Mobile_navbar() {
     const { t } = useTranslation();
-
+// TO BE DELTED!
     return (
         <div className='mob_nav_container'>
             <Navbar key={'xxl'} expand={'xxl'} className="bg-body-tertiary">

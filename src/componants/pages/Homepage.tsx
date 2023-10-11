@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { throttle } from 'lodash';
 import { Wedding_bells } from '../audio_componants/Wedding_bells';
-
+import { Change_language } from "../widgets/Change_language";
 
 export function Homepage() {
     const { t } = useTranslation();
@@ -14,42 +14,28 @@ export function Homepage() {
 
     function handle_scroll_effects() {
         const hero_element_coords = heroElement.current!.getBoundingClientRect();
-        if(hero_element_coords.top <= 40) {
+        if(hero_element_coords.top <= -10) {
             heroElement.current!.classList.add('showH1');
             celebrateElement.current!.classList.remove('appear');
         }
-        if(hero_element_coords.bottom <= 500 || hero_element_coords.top > 40) {
+        if(hero_element_coords.bottom <= 500 || hero_element_coords.top > -10) {
             heroElement.current!.classList.remove('showH1');
             celebrateElement.current!.classList.add('appear');
         }
     }
 
-    // I have hard coded the height of the mobile and desktop nav. 
-    // I need to check both of these heights are correct for mobile at end of project or adjust:
     useEffect(() => {
-        setHeight();
-        window.addEventListener('resize', setHeight);
         window.addEventListener('scroll', throttle_scroll_events);
 
         return () => {
-            window.removeEventListener('resize', setHeight);
             window.removeEventListener('scroll', throttle_scroll_events);
         }
     }, [throttle_scroll_events])
 
-    function setHeight() {
-        if(heroElement) {
-            const height = window.innerHeight - 56;
-            const hero_banner_element = heroElement.current;
-            if(hero_banner_element) {
-                heroElement.current!.style.height = `${height}px`
-            }
-        }
-    }
-
     return (
         <div>
             <Wedding_bells />
+            <Change_language />
             <div ref={heroElement} className="section home_hero">
                 <div className='hero_background'></div>
                 <div className="box">
