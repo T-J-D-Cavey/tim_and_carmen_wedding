@@ -2,25 +2,35 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { throttle } from 'lodash';
-import { Wedding_bells } from '../audio_componants/Wedding_bells';
 import { Change_language } from "../widgets/Change_language";
+import audio_file from '../../../public/wedding_bells_audio.wav';
 
 export function Homepage() {
     const { t } = useTranslation();
-    const heroElement = useRef<HTMLDivElement | null>(null);
-    const celebrateElement = useRef<HTMLDivElement | null>(null);
-
+    const hero_element = useRef<HTMLDivElement | null>(null);
+    const celebrate_element = useRef<HTMLDivElement | null>(null);
+    const audioRef = useRef<HTMLAudioElement | null>(null);
+    let play_count = 0;
     const throttle_scroll_events = throttle(handle_scroll_effects, 333)
 
     function handle_scroll_effects() {
-        const hero_element_coords = heroElement.current!.getBoundingClientRect();
-        if(hero_element_coords.top <= -10) {
-            heroElement.current!.classList.add('showH1');
-            celebrateElement.current!.classList.remove('appear');
+        const hero_element_coords = hero_element.current!.getBoundingClientRect();
+        const celebrate_element_coords = celebrate_element.current!.getBoundingClientRect();
+        if(play_count < 1) {
+            audioRef.current!.play();
+            play_count++;
         }
-        if(hero_element_coords.bottom <= 500 || hero_element_coords.top > -10) {
-            heroElement.current!.classList.remove('showH1');
-            celebrateElement.current!.classList.add('appear');
+        if(hero_element_coords.top <= -5) {
+            hero_element.current!.classList.add('showH1');
+        }
+        if (hero_element_coords.bottom < 500 || hero_element_coords.top > -5) {
+            hero_element.current!.classList.remove('showH1');
+        }
+        if(window.innerHeight - celebrate_element_coords.bottom > 0) {
+            celebrate_element.current!.classList.add('appear');
+        }
+        else {
+            celebrate_element.current!.classList.remove('appear');
         }
     }
 
@@ -34,12 +44,12 @@ export function Homepage() {
 
     return (
         <div>
-            <Wedding_bells />
+            <audio ref={audioRef} src={audio_file} autoPlay />
             <Change_language />
-            <div ref={heroElement} className="section home_hero">
+            <div ref={hero_element} className="section home_hero">
                 <div className='hero_background'></div>
                 <div className="box">
-                    <div>
+                    <div className='font_main'>
                         <h1>{t("homepage_tim")}</h1>
                         <h1>{t("homepage_and")}</h1>
                         <h1>{t("homepage_carmen")}</h1>
@@ -51,15 +61,16 @@ export function Homepage() {
             </div>
             {/* Could add a tsparticles confetti animation behind this hope_container, starting on specific scroll position */}
             <div className="section hope_container">
-                <div ref={celebrateElement} className="box">
-                    <p>{t("homepage_celebrate")}</p>
+                <div ref={celebrate_element} className="box">
+                    <p className='font_written'>{t("homepage_celebrate")}</p>
+                    {/* Add wedding dates here? */}
                 </div>
                 <div className="box">
                     <div>
-                        <p>{t("homepage_hope")}</p>
+                        <p className='font_written'>{t("homepage_hope")}</p>
                     </div>
                     <div>
-                        <p>
+                        <p className='font_main'>
                             <a 
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSeHz_Ge78j_BSThaY3NEYHd7BEi1B8QtIjHvVNSlxrSCLrCBA/viewform?usp=sf_link"
                                 target="_blank">
@@ -69,24 +80,11 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="section details_container">
-                <div className="box">
-                    <p>{t("homepage_details")}</p>
-                </div>
-                <ul className="box home_page_links">
-                    <li>
-                      <Link to="/malaysia-celebration">{t("nav_malay")}</Link>
-                    </li>
-                    <li>
-                      <Link to="/uk-celebration">{t("nav_uk")}</Link>
-                    </li>
-                </ul>
-            </div>
             <div className="section paypal_section_container">
                 <div className="box">
                     <p>{t("homepage_paypal_message")}</p>
                 </div>
-                <div className="box">
+                <div className="box paypal_box">
                     <form action="https://www.paypal.com/donate" method="post" target="_blank">
                         <input type="hidden" name="business" value="E8GXZZ6J2WQUS" />
                         <input type="hidden" name="no_recurring" value="1" />

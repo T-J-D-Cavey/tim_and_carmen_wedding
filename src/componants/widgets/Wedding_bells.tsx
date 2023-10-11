@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-import audioFile from './wedding_bells_audio.wav';
+import audioFile from '../../../public/wedding_bells_audio.wav';
 
 export function Wedding_bells() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -10,7 +10,7 @@ export function Wedding_bells() {
         audioRef.current.play();
       }
     }
-
+//  TO BE DELETED
     window.addEventListener('scroll', play_wedding_bells, { once: true });
     window.addEventListener('touchstart', play_wedding_bells, { once: true });
 
