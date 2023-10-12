@@ -91,8 +91,9 @@ export function Homepage() {
                 </div>
             </div>
             <div className="section paypal_section_container double_height font_light">
-                <div className="box square">
+                <div className="box square font_normal">
                     <p>{t("homepage_paypal_message")}</p>
+                    <p>{t("homepage_paypal_message2")}</p>
                     <div className="paypal_box">
                         <form action="https://www.paypal.com/donate" method="post" target="_blank">
                             <input type="hidden" name="business" value="E8GXZZ6J2WQUS" />

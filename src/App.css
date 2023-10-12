@@ -3,17 +3,18 @@
 :root {
     --font-type-main: 'Cormorant Garamond', serif;
     --font-type-written:'Dancing Script', cursive;
+    --font-type-normal: 'Raleway', sans-serif;
 
 
     /* --font-colour-dark: #FAF9F6; */
-    --font-colour-dark: #002;
+    --font-colour-dark: #090c43;
     --font-colour-dark-hover: rgb(52, 51, 49);
     --font-colour-light: #ede2d6;
 
     /* --background-colour-one: #B1B8A8; */
     /* --background-colour-two: #97B6D5; */
     --background-colour-one: #ede2d6;
-    --background-colour-two: #1a2702;
+    --background-colour-two: #090c43;
 
 }
 
@@ -84,6 +85,10 @@ a:hover {
 .font_written {
     font-family: var(--font-type-written);
     font-size: 3rem;
+}
+
+.font_normal {
+    font-family: var(--font-type-normal);
 }
 
 .font_light {
@@ -215,6 +220,10 @@ a:hover {
     margin-top: 10%;
 }
 
+.paypal_section_container .box p:nth-child(2) {
+    margin-top: 2rem;
+}
+
 .paypal_box {
     margin-top: 2rem;
 }
@@ -269,7 +278,7 @@ footer {
         flex-direction: row;
     }
 
-    .hope_container::after, .paypal_section_container::after {
+    .hope_container::after {
         height: 60%;
         width: 1px;
         top: 20%;
