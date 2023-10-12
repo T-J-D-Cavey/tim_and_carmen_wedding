@@ -62,21 +62,20 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-            {/* Could add a tsparticles confetti animation behind this hope_container, starting on specific scroll position */}
             <div className="section hope_container font_dark">
-                <div className="box square">
+                <div>
                     <div ref={celebrate_element} className='hope_appear'>
-                        <p className='font_written'>{t("homepage_celebrate")}</p>
-                        <div>
-                            <p className='font_main small_font'>{t("homepage__malay_date")}</p>
-                            <p className='font_main small_font'>{t("homepage__uk_date")}</p>
+                        <p className='font_written mb_1'>{t("homepage_celebrate")}</p>
+                        <div className="v_small_font">
+                            <p>{t("homepage__uk_date")}</p>
+                            <p className="mt_1">{t("homepage__malay_date")}</p>
                         </div>
                     </div>
                 </div>
-                <div className="box square">
+                <div>
                     <div ref={rsvp_element} className="hope_appear">
                         <div>
-                            <p className='font_written'>{t("homepage_hope")}</p>
+                            <p className='font_written mb_1'>{t("homepage_hope")}</p>
                         </div>
                         <div>
                             <p className='font_main small_font'>
@@ -90,7 +89,7 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="section paypal_section_container double_height font_light">
+            <div className="section paypal_section_container flex_reverse double_height font_light large_font">
                 <div className="box square font_normal">
                     <p>{t("homepage_paypal_message")}</p>
                     <p>{t("homepage_paypal_message2")}</p>
@@ -108,6 +107,27 @@ export function Homepage() {
                 <div className="box square background_image angpao_background">
                 </div>
             </div>
+
+            <div className="section double_height font_dark large_font">
+                <div className="box square background_image bristol_background">
+                </div>
+                <div className="box square font_normal">
+                    <p>text to be replaced</p>
+                </div>
+            </div>
+
+            <div className="section flex_reverse double_height font_light large_font">
+                <div className="box square font_normal">
+                    <p>text to be replaced</p>
+                </div>
+                <div className="box square background_image kl_background">
+                </div>
+            </div>
+
+
+
+
+
         </div>
     )
 }
