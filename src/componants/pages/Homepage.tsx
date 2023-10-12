@@ -51,7 +51,7 @@ export function Homepage() {
             <Change_language />
             <div ref={hero_element} className="section home_hero">
                 <div className='hero_background'></div>
-                <div className="box">
+                <div className="box font_light">
                     <div className='font_main'>
                         <h1>{t("homepage_tim")}</h1>
                         <h1>{t("homepage_and")}</h1>
@@ -63,7 +63,7 @@ export function Homepage() {
                 </div>
             </div>
             {/* Could add a tsparticles confetti animation behind this hope_container, starting on specific scroll position */}
-            <div className="section hope_container">
+            <div className="section hope_container font_dark">
                 <div className="box square">
                     <div ref={celebrate_element} className='hope_appear'>
                         <p className='font_written'>{t("homepage_celebrate")}</p>
@@ -79,7 +79,7 @@ export function Homepage() {
                             <p className='font_written'>{t("homepage_hope")}</p>
                         </div>
                         <div>
-                            <p className='font_main '>
+                            <p className='font_main small_font'>
                                 <a 
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSeHz_Ge78j_BSThaY3NEYHd7BEi1B8QtIjHvVNSlxrSCLrCBA/viewform?usp=sf_link"
                                     target="_blank">
@@ -90,10 +90,10 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="section paypal_section_container">
+            <div className="section paypal_section_container double_height font_light">
                 <div className="box square">
                     <p>{t("homepage_paypal_message")}</p>
-                    <div className="box paypal_box">
+                    <div className="paypal_box">
                         <form action="https://www.paypal.com/donate" method="post" target="_blank">
                             <input type="hidden" name="business" value="E8GXZZ6J2WQUS" />
                             <input type="hidden" name="no_recurring" value="1" />
@@ -104,7 +104,7 @@ export function Homepage() {
                         </form>
                     </div>
                 </div>
-                <div className="box square">
+                <div className="box square background_image angpao_background">
                 </div>
             </div>
         </div>

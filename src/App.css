@@ -5,13 +5,15 @@
     --font-type-written:'Dancing Script', cursive;
 
 
-    /* --font-colour-main: #FAF9F6; */
-    --font-colour-main: #002;
-    --font-colour-main-hover: gold;
-    --font-colour-other: #002;
+    /* --font-colour-dark: #FAF9F6; */
+    --font-colour-dark: #002;
+    --font-colour-dark-hover: rgb(52, 51, 49);
+    --font-colour-light: #ede2d6;
 
-    --background-colour-green: #B1B8A8;
-    --background-colour-blue: #97B6D5;
+    /* --background-colour-one: #B1B8A8; */
+    /* --background-colour-two: #97B6D5; */
+    --background-colour-one: #ede2d6;
+    --background-colour-two: #1a2702;
 
 }
 
@@ -37,7 +39,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
     box-sizing: border-box;
-    color: var(--font-colour-main)
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -66,12 +67,12 @@ table {
 
 /* ---->>>> General styles: */
 a {
-    color: var(--font-colour-main)
+    color: var(--font-colour-dark)
 }
 
 a:hover {
     /* ????????? do we need these styles? */
-    color: var(--font-colour-main-hover);
+    color: var(--font-colour-dark-hover);
     text-decoration:dotted;
 }
 
@@ -83,6 +84,14 @@ a:hover {
 .font_written {
     font-family: var(--font-type-written);
     font-size: 3rem;
+}
+
+.font_light {
+    color: var(--font-colour-light)
+}
+
+.font_dark {
+    color: var(--font-colour-dark);
 }
 
 /* ---->>>> Language button: */
@@ -112,11 +121,11 @@ a:hover {
 }
 
 .section:nth-child(odd) {
-    background-color: var(--background-colour-blue);
+    background-color: var(--background-colour-two);
 }
 
 .section:nth-child(even) {
-    background-color: var(--background-colour-green);
+    background-color: var(--background-colour-one);
 }
 
 .square {
@@ -157,10 +166,8 @@ a:hover {
 }
 
 .home_hero .box > * {
-    /* font size to be replaced with variables once set up and fonts chosen: */
     font-size: 6.5rem;
     margin-top: 1.5rem;
-    color: #fff;
 }
 
 .home_hero .box {
@@ -179,14 +186,14 @@ a:hover {
     position: relative;
 }
 
-.hope_container::after, .paypal_section_container::after {
+.hope_container::after {
     content: '';
     position: absolute;
     width: 60%;
     height: 1px;
     top: 50%;
     left: 20%;
-    border-bottom: 1px solid var(--font-colour-main);
+    border-bottom: 1px solid var(--font-colour-dark);
     background-size: cover;
     background-position: center;
     transform: translateY(-50%);
@@ -209,11 +216,7 @@ a:hover {
 }
 
 .paypal_box {
-    width: 20rem;
-    height: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 2rem;
 }
 
 .box input[name="submit"] {
@@ -236,6 +239,15 @@ a:hover {
     }
 }
 
+.background_image {
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.angpao_background {
+    background-image: url("../public/images/angpoa1.jpg");
+}
 
 
 /* ---->>>> Footer: */
@@ -263,12 +275,16 @@ footer {
         top: 20%;
         left: 50%;
         border-bottom: 0;
-        border-left: 1px solid var(--font-colour-main);
+        border-left: 1px solid var(--font-colour-dark);
         transform: translateX(-50%);
     }
 
     .square {
         width: 50vw;
+    }
+
+    .square p {
+        max-width: 40rem;
     }
 
 }
@@ -277,6 +293,10 @@ footer {
 
     .home_hero .box > * {
         font-size: 4.1rem;
+    }
+
+    .double_height {
+        height: 200vh;
     }
 
 
