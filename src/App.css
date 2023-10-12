@@ -77,10 +77,12 @@ a:hover {
 
 .font_main {
     font-family: var(--font-type-main);
+
 }
 
 .font_written {
     font-family: var(--font-type-written);
+    font-size: 3rem;
 }
 
 /* ---->>>> Language button: */
@@ -99,7 +101,7 @@ a:hover {
 /* ---->>>> Page section styles: */
 .section {
     height: 100vh;
-    max-height: 60rem;
+    max-height: 200rem;
     min-height: 20rem;
     display: flex;
     flex-direction: column;
@@ -115,6 +117,16 @@ a:hover {
 
 .section:nth-child(even) {
     background-color: var(--background-colour-green);
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 20px;
 }
 
 /* ---->>>> Home page: */
@@ -181,16 +193,19 @@ a:hover {
     z-index: 2;
 }
 
-.hope_container .box:nth-child(1) {
-    /* font-size: 4rem; */
+.hope_appear {
     opacity: 0;
     display: hidden;
     transition: all 0.5s;
 }
 
-.hope_container .box:nth-child(1).appear {
+.hope_appear.appear {
     opacity: 1;
     display: block;
+}
+
+.hope_appear > * {
+    margin-top: 10%;
 }
 
 .paypal_box {
@@ -205,6 +220,10 @@ a:hover {
     width: 4rem;
     height: 4rem;
     animation: 1s infinite ease-in-out alternate pulsatePaypal;
+}
+
+.small_font {
+    font-size: 1.5rem;
 }
 
 
@@ -230,6 +249,7 @@ footer {
 
 /* ---->>>> Medium screens and above: */
 @media screen and (min-width: 500px) {
+
 }
 /* ---->>>> Large screens only: */
 @media screen and (min-width: 900px) {
@@ -247,9 +267,10 @@ footer {
         transform: translateX(-50%);
     }
 
-    .paypal_section_container > * {
-        max-width: 20rem;
+    .square {
+        width: 50vw;
     }
+
 }
 /* ---->>>> Small screens only: */
 @media screen and (max-width: 499px) {
@@ -257,5 +278,8 @@ footer {
     .home_hero .box > * {
         font-size: 4.1rem;
     }
+
+
+  
 }
 
