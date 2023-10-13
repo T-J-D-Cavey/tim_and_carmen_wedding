@@ -5,6 +5,7 @@
     "password_alert": "Incorrect password. Please try again.",
     "button_close": "Close",
     "button_submit": "Submit",
+    "button_details": "Details",
     "langauge": "Choose langauge: ",
     "nav_home": "Home",
     "nav_about": "About us",
@@ -23,6 +24,10 @@
     "homepage_paypal_message": "Your presence is already the perfect gift for us. We do have a honeyfund for anyone who wants to give us a wedding gift.",
     "homepage_paypal_message2": "Tap this PayPal button to contribute:",
     "homepage_paypal_page_note": "Thanks for contributing to Tim and Carmen's wedding 'Honeyfund' - we'll be putting it towards our 2025 honeymoon!",
+    "uk_modal_title": "UK Wedding Details",
+    "uk_modal_top_p": "We'll be registering at the Bristol Registration office in the early afternoon before heading to *venue tbc* to celebrate with you all. You'd be welcome to join at either locations.",
+    "uk_modal_travel_link": "This 'Visit Bristol' page", 
+    "uk_modal_travel_p": "has information and advice for anyone traveling to Bristol, plus tips for what to do in the city.",
     "malay_page": "malay wedding copy tbc",
     "uk_page": "uk wedding copy tbc"
 }

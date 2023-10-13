@@ -279,6 +279,24 @@ a:hover, a:focus {
     background-image: url("../public/images/bristol_stnicks.jpg");
 }
 
+/* ---->>>> Modals */ 
+
+.carousel_image_container {
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 90vw;
+    max-width: 30rem;
+    min-width: 13rem;
+    height: 60vh;
+    max-height: 40rem;
+    min-height: 20rem;
+}
+
+.uk_carousel_image_1 {
+    background-image: url("../public/images/bristol_stnicks.jpg");
+}
+
 /* ---->>>> Footer: */
 footer {
     height: 4rem;

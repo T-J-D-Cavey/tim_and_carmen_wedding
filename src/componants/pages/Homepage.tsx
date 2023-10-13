@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 // import { Link } from "react-router-dom";
 import { throttle } from 'lodash';
 import { Change_language } from "../widgets/Change_language";
+import { UK_modal } from "../widgets/modals/UK_modal";
 import audio_file from '../../../public/wedding_bells_audio.wav';
 
 export function Homepage() {
@@ -112,7 +113,7 @@ export function Homepage() {
                 <div className="box square background_image bristol_background">
                 </div>
                 <div className="box square font_normal">
-                    <p>text to be replaced</p>
+                    <UK_modal />
                 </div>
             </div>
 
