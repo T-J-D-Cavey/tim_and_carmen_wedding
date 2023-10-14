@@ -2,7 +2,7 @@
 
 :root {
     --font-type-main: 'Cormorant Garamond', serif;
-    --font-type-written:'Dancing Script', cursive;
+    --font-type-written: 'Tangerine', cursive;;
     --font-type-normal: 'Raleway', sans-serif;
     --font-colour-dark: #090c43;
     --font-colour-dark-hover: navy;
@@ -75,7 +75,8 @@ table {
 
 .font_written {
     font-family: var(--font-type-written);
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
 }
 
 .font_normal {
