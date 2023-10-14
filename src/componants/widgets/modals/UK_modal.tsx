@@ -21,9 +21,6 @@ export function UK_modal () {
         aria-labelledby="UK wedding details"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="UK wedding details">
-            {t("uk_modal_title")}
-          </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <UK_carousel />

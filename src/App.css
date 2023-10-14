@@ -302,6 +302,15 @@ a:hover, a:focus {
 
 /* ---->>>> Modals */ 
 
+.modal-content, .modal-header {
+    background-color: var(--background-colour-one);
+    border: none;
+}
+
+.carousel-caption {
+    height: 100%;
+}
+
 .carousel_image_container {
     background-position: center;
     background-repeat: none;
@@ -316,8 +325,10 @@ a:hover, a:focus {
 
 .carousel_text_container {
     position: absolute;
-    bottom: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
+    width: 100%;
 }
 
 
@@ -325,19 +336,38 @@ a:hover, a:focus {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 100px;
-    height: 100px;
-    z-index: 2;
+    background-color: var(--background-colour-two);
+    filter: blur(20px);
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
 }
 
-.carousel_text_container > div {
+.carousel_text_container div:nth-child(2) {
+    color: var(--font-colour-light);
     position: relative;
     z-index: 4;
+    margin: 0 auto;
+}
+
+.carousel_text_container div:nth-child(2) > * {
+    margin-top: 1rem;
+}
+
+.carousel_text_container a {
+
+    color: var(--font-colour-light);
 }
 
 .uk_carousel_image_1 {
-    background-image: url("../public/images/bristol_stnicks.jpg");
+    background-image: url("../public/images/hero_image.jpg");
+    background-position: 57% top;
+}
+
+.uk_carousel_image_2 {
+    background-image: url("../public/images/bristol_register_office.jpeg");
+    background-position: center top;
 }
 
 /* ---->>>> Footer: */
