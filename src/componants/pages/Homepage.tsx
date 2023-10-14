@@ -67,7 +67,7 @@ export function Homepage() {
                 <div>
                     <div ref={celebrate_element} className='hope_appear'>
                         <p className='font_written mb_1'>{t("homepage_celebrate")}</p>
-                        <div className="v_small_font">
+                        <div className="v_small_font font_extra_spacing">
                             <p>{t("homepage__uk_date")}</p>
                             <p className="mt_1">{t("homepage__malay_date")}</p>
                         </div>
@@ -79,7 +79,7 @@ export function Homepage() {
                             <p className='font_written mb_1'>{t("homepage_hope")}</p>
                         </div>
                         <div>
-                            <p className='font_main small_font'>
+                            <p className='font_main v_small_font font_extra_spacing'>
                                 <a 
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSeHz_Ge78j_BSThaY3NEYHd7BEi1B8QtIjHvVNSlxrSCLrCBA/viewform?usp=sf_link"
                                     target="_blank">
@@ -113,7 +113,23 @@ export function Homepage() {
                 <div className="box square background_image bristol_background">
                 </div>
                 <div className="box square font_normal">
-                    <UK_modal />
+                    <div className="day_plan_container">
+                        <h2 className="font_written">{t("uk_day_plan_title")}</h2>
+                        <div>
+                            <h3 className="small_font">{t("day_plan_title")}</h3>
+                            <ul className="font_main v_small_font font_extra_spacing">
+                                <li>
+                                    <p>{t("uk_day_plan_registration")}</p>
+                                    <p>{t("uk_day_plan_registration_location")}</p>
+                                </li>    
+                                <li>
+                                    <p>{t("uk_day_plan_reception")}</p>
+                                    <p>{t("uk_day_plan_reception_location")}</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <UK_modal />
+                    </div>
                 </div>
             </div>
 

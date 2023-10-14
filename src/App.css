@@ -102,6 +102,10 @@ table {
     font-size: 2rem;
 }
 
+.font_extra_spacing {
+    letter-spacing: 1.5px;
+}
+
 a {
     color: var(--font-colour-dark);
     transition: all 0.5s;
@@ -109,7 +113,7 @@ a {
 
 a:hover, a:focus {
     color: var(--font-colour-dark-hover);
-    text-decoration-color: gold;
+    text-decoration-color: none;
 }
 
 
@@ -277,6 +281,23 @@ a:hover, a:focus {
 
 .bristol_background {
     background-image: url("../public/images/bristol_stnicks.jpg");
+}
+
+/* ---->>>> Day plans */
+
+.day_plan_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90%;
+    max-height: 40rem;
+    padding: 0 0.5rem;
+    max-width: 30rem;
+}
+
+.day_plan_container h3, .day_plan_container li {
+    margin-bottom: 1rem;
 }
 
 /* ---->>>> Modals */ 
