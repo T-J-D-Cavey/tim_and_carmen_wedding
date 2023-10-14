@@ -27,15 +27,6 @@ export function UK_modal () {
         </Modal.Header>
         <Modal.Body>
           <UK_carousel />
-          <p>{t("uk_modal_top_p")}</p>
-          
-          <p>
-                <a href="https://visitbristol.co.uk/your-visit/travelling-to-bristol" target="_blank">
-                    {t("uk_modal_travel_link")}
-                </a>
-                {' '}
-                {t("uk_modal_travel_p")}
-            </p>    
         </Modal.Body>
       </Modal>
     </>

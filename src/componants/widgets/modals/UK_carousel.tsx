@@ -5,12 +5,27 @@ export function UK_carousel() {
     <Carousel fade>
       <Carousel.Item>
         <div className="carousel_image_container uk_carousel_image_1"></div>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+          <Carousel.Caption>
+            <div className="carousel_text_container">
+              <div className="carousel_text_background"></div>
+              <div>
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+          </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      {/* <Carousel.Item>
         <div className="carousel_image_container uk_carousel_image_1"></div>
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -25,7 +40,7 @@ export function UK_carousel() {
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }

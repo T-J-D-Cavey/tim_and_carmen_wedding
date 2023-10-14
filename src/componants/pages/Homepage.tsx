@@ -115,9 +115,9 @@ export function Homepage() {
                 <div className="box square font_normal">
                     <div className="day_plan_container">
                         <h2 className="font_written">{t("uk_day_plan_title")}</h2>
-                        <div>
-                            <h3 className="small_font">{t("day_plan_title")}</h3>
-                            <ul className="font_main v_small_font font_extra_spacing">
+                        <div className="font_main v_small_font font_extra_spacing">
+                            <h3>{t("uk_day_plan_date")}</h3>
+                            <ul>
                                 <li>
                                     <p>{t("uk_day_plan_registration")}</p>
                                     <p>{t("uk_day_plan_registration_location")}</p>
@@ -137,9 +137,9 @@ export function Homepage() {
                 <div className="box square font_normal">
                     <div className="day_plan_container">
                         <h2 className="font_written">{t("malay_day_plan_title")}</h2>
-                        <div>
-                            <h3 className="small_font">{t("day_plan_title")}</h3>
-                            <ul className="font_main v_small_font font_extra_spacing">
+                        <div className="font_main v_small_font font_extra_spacing">
+                            <h3>{t("malay_day_plan_date")}</h3>
+                            <ul>
                                 <li>
                                     <p>{t("malay_day_plan_registration")}</p>
                                     <p>{t("malay_day_plan_registration_location")}</p>

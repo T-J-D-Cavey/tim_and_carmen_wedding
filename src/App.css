@@ -70,7 +70,6 @@ table {
 }
 .font_main {
     font-family: var(--font-type-main);
-
 }
 
 .font_written {
@@ -313,6 +312,28 @@ a:hover, a:focus {
     height: 60vh;
     max-height: 40rem;
     min-height: 20rem;
+}
+
+.carousel_text_container {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+}
+
+
+.carousel_text_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+}
+
+.carousel_text_container > div {
+    position: relative;
+    z-index: 4;
 }
 
 .uk_carousel_image_1 {
