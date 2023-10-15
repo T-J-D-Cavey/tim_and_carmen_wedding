@@ -2,11 +2,16 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { set_language, language_selector } from '../../redux/main_slice';
 import { useTranslation } from "react-i18next";
+import gb_flag from '../../assets/images/british_flag_icon.png';
+import china_flag from '../../assets/images/china_flag_icon.png';
+import arrow from '../../assets/images/arrow_icon.png'
 
 export function Change_language() {
     const dispatch = useDispatch();
     const language = useSelector(language_selector);
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
+    const current_flag = language === 'en' ? gb_flag : china_flag;
+    const other_flag = language === 'en' ? china_flag : gb_flag;
 
     function handleClick() {
         const new_language = language === 'en' ? 'zh-CN' : 'en';
@@ -16,10 +21,13 @@ export function Change_language() {
     useEffect(() => {
         i18n.changeLanguage(language)
     }, [language, i18n])
-    // will use bootstrap button and/or add an image flag icon
     return (
         <div className='lang-btn-container'>
-            <button onClick={handleClick}>{t("langauge")}</button>
+            <div onClick={handleClick}> 
+                <img src={current_flag} alt="current language"/>
+                <img src={arrow}/>
+                <img src={other_flag} alt="language option"/>
+            </div>
         </div>
     )
 }
