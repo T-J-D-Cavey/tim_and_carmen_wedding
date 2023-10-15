@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { throttle } from 'lodash';
 import { Change_language } from "../widgets/Change_language";
 import { UK_modal } from "../widgets/modals/UK_modal";
+import { Malaysia_modal } from "../widgets/modals/Malaysia_modal";
 import audio_file from '../../../public/wedding_bells_audio.wav';
 
 export function Homepage() {
@@ -150,7 +151,7 @@ export function Homepage() {
                                 </li>
                             </ul>
                         </div>
-                        <UK_modal />
+                        <Malaysia_modal />
                     </div>
                 </div>
                 <div className="box square background_image kl_background">
@@ -160,7 +161,7 @@ export function Homepage() {
 
 
 
-
+{/* Need to have the photo of us front on smilling at the bottom above the footer */}
         </div>
     )
 }

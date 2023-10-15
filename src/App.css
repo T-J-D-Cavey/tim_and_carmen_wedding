@@ -312,7 +312,7 @@ a:hover, a:focus {
 }
 
 .carousel_image_container {
-    background-position: center;
+    background-position: center top;
     background-repeat: none;
     background-size: cover;
     width: 90vw;
@@ -366,17 +366,22 @@ a:hover, a:focus {
 
 .uk_carousel_image_2 {
     background-image: url("../public/images/bristol_register_office.jpeg");
-    background-position: center top;
 }
 
 .uk_carousel_image_3 {
     background-image: url("../public/images/bristol_reception.jpg");
-    background-position: center top;
 }
 
 .uk_carousel_image_4 {
     background-image: url("../public/images/bristol_travel.jpg");
-    background-position: center top;
+}
+
+.malay_carousel_image_2 {
+    background-image: url("../public/images/tea_ceremony.jpg");
+}
+
+.malay_carousel_image_3 {
+    background-image: url("../public/images/temp_malay_meal.jpeg");
 }
 
 /* ---->>>> Footer: */

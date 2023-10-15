@@ -45,8 +45,19 @@
     "uk_modal_travel_p": "has information and advice for anyone traveling to Bristol, plus tips for what to do in the city.",
     "malay_day_plan_title": "Our Malaysian wedding celebration",
     "malay_day_plan_date": "16/11/24:",
-    "malay_day_plan_registration": "10:00am: TEA CEREMONY WITH IMMEDIATE FAMILY:",
+    "malay_day_plan_registration": "10:00am: TEA CEREMONY:",
     "malay_day_plan_registration_location": "*ADDRESS TBC*",
     "malay_day_plan_reception": "2pm: WEDDING BANQUET",
-    "malay_day_plan_reception_location": "*VENUE TBC*"
+    "malay_day_plan_reception_location": "*VENUE TBC*",
+    "malay_modal_title": "KUALA LUMPAR",
+    "malay_modal_date": "16/11/24",
+    "malay_modal_tea_h2": "ONG FAMILY HOME",
+    "malay_modal_tea_time": "10am",
+    "malay_modal_tea_p": "Ceremonial tea ceremony and gift giving with family. Anyone is welcome to observe this traditional event",
+    "malay_modal_meal_h2": "VENUE TBC",
+    "malay_modal_meal_time": "2pm",
+    "malay_modal_meal_p": "A ten course banquet and celebration with friends and family. Children welcome.",
+    "malay_modal_travel_h2": "TRAVELING TO KUALA LUMPAR?",
+    "malay_modal_travel_a": "Things to do and accomadation options in Kuala Lumpar here"
+
 }

@@ -22,7 +22,7 @@ export function UK_modal () {
       >
         <Modal.Header closeButton>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body id="UK wedding details">
           <UK_carousel />
         </Modal.Body>
       </Modal>
