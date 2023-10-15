@@ -5,7 +5,7 @@ import { throttle } from 'lodash';
 import { Change_language } from "../widgets/Change_language";
 import { UK_modal } from "../widgets/modals/UK_modal";
 import { Malaysia_modal } from "../widgets/modals/Malaysia_modal";
-import audio_file from '../../../public/wedding_bells_audio.wav';
+import audio_file from '../../assets/wedding_bells_audio.wav';
 
 export function Homepage() {
     const { t } = useTranslation();
@@ -109,7 +109,6 @@ export function Homepage() {
                 <div className="box square background_image angpao_background">
                 </div>
             </div>
-
             <div className="section double_height font_dark large_font">
                 <div className="box square background_image bristol_background">
                 </div>
@@ -133,7 +132,6 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-
             <div className="section flex_reverse double_height font_light large_font">
                 <div className="box square font_normal">
                     <div className="day_plan_container">
@@ -157,6 +155,7 @@ export function Homepage() {
                 <div className="box square background_image kl_background">
                 </div>
             </div>
+            <div className="bottom_photo"></div>
 
 
 

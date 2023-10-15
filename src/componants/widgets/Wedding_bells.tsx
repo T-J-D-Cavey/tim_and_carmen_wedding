@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
-
-import audioFile from '../../../public/wedding_bells_audio.wav';
+import audioFile from '../../assets/wedding_bells_audio.wav';
 
 export function Wedding_bells() {
   const audioRef = useRef<HTMLAudioElement | null>(null);

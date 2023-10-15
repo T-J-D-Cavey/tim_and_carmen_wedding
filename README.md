@@ -18,4 +18,7 @@ Photo by <a href="https://unsplash.com/@marbo777?utm_content=creditCopyText&utm_
 
   (might not be used) Photo by <a href="https://unsplash.com/@sohl_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stacie Ong</a> on <a href="https://unsplash.com/photos/a-woman-in-a-red-dress-holding-a-cup-and-saucer-mFdzsskhZqY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
+  (might not be used) Photo by <a href="https://unsplash.com/@ar__?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">AR</a> on <a href="https://unsplash.com/photos/XoayfATStyE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+  github icon <a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   

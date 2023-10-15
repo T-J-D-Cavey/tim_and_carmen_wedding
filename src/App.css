@@ -175,7 +175,7 @@ a:hover, a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../public/images/hero_image.jpg');
+    background-image: url('/src/assets/images/hero_image.jpg');
     background-size: cover;
     background-position: 57% top;
     transition: all 0.5s;
@@ -272,15 +272,15 @@ a:hover, a:focus {
 }
 
 .angpao_background {
-    background-image: url("../public/images/angpoa1.jpg");
+    background-image: url("/src/assets/images/angpoa1.jpg");
 }
 
 .kl_background {
-    background-image: url("../public/images/kuala_lumpur_night.jpg");
+    background-image: url("/src/assets/images/kuala_lumpur_night.jpg");
 }
 
 .bristol_background {
-    background-image: url("../public/images/bristol_stnicks.jpg");
+    background-image: url("/src/assets/images/bristol_stnicks.jpg");
 }
 
 /* ---->>>> Day plans */
@@ -336,7 +336,7 @@ a:hover, a:focus {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--background-colour-two);
+    background-color: var(--background-colour-one);
     filter: blur(20px);
     opacity: 0.7;
     width: 100%;
@@ -345,7 +345,7 @@ a:hover, a:focus {
 }
 
 .carousel_text_container div:nth-child(2) {
-    color: var(--font-colour-light);
+    color: var(--font-colour-dark);
     position: relative;
     z-index: 4;
     margin: 0 auto;
@@ -356,32 +356,51 @@ a:hover, a:focus {
 }
 
 .carousel_text_container a {
-    color: var(--font-colour-light);
+    color: var(--font-colour-dark);
+}
+
+.carousel_text_container a:hover {
+    color: var(--font-colour-dark-hover);
 }
 
 .uk_carousel_image_1 {
-    background-image: url("../public/images/hero_image.jpg");
+    background-image: url("/src/assets/images/hero_image.jpg");
     background-position: 57% top;
 }
 
 .uk_carousel_image_2 {
-    background-image: url("../public/images/bristol_register_office.jpeg");
+    background-image: url("/src/assets/images/bristol_register_office.jpeg");
 }
 
 .uk_carousel_image_3 {
-    background-image: url("../public/images/bristol_reception.jpg");
+    background-image: url("/src/assets/images/bristol_reception.jpg");
 }
 
 .uk_carousel_image_4 {
-    background-image: url("../public/images/bristol_travel.jpg");
+    background-image: url("/src/assets/images/bristol_travel.jpg");
 }
 
 .malay_carousel_image_2 {
-    background-image: url("../public/images/tea_ceremony.jpg");
+    background-image: url("/src/assets/images/tea_ceremony.jpg");
 }
 
 .malay_carousel_image_3 {
-    background-image: url("../public/images/temp_malay_meal.jpeg");
+    background-image: url("/src/assets/images/temp_malay_meal.jpeg");
+}
+
+.malay_carousel_image_4 {
+    background-image: url("/src/assets/images/kl_airport.jpg");
+}
+
+.bottom_photo {
+    width: 100%;
+    height: 100vh;
+    max-height: 70rem;
+    min-height: 10rem;
+    background-image: url('/src/assets/images/smile_forward_image.jpg');
+    background-position: center top;
+    background-repeat: none;
+    background-size: cover;
 }
 
 /* ---->>>> Footer: */
@@ -391,6 +410,21 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-colour-two);
+}
+
+footer div {
+    margin: 0 1.5rem;
+}
+
+footer div:nth-child(2) img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+footer input[name="submit"] {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 /* ---->>>> Medium screens and above: */

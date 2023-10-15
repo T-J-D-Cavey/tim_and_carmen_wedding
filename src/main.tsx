@@ -8,7 +8,6 @@ import { store } from './redux/store.ts';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  // I need to set up browser router here
   <React.StrictMode>
     <Provider store={store}>
       <I18nextProvider i18n={i18n}>

@@ -4,7 +4,7 @@ import { is_correct_selector, set_in_local_storage, in_local_storage_selector } 
 import { Password_modal } from './componants/widgets/Password_modal.tsx';
 import { Homepage } from './componants/pages/Homepage.tsx';
 import { Footer } from './componants/widgets/Footer.tsx';
-import './App.css'
+import './App.css';
 
 function App() {
   const dispatch = useDispatch();
