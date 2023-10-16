@@ -17,7 +17,7 @@ export function Footer() {
                 </form>
             </div>
             <div>
-                <img src={github_icon} alt="The site creator's github page"/>
+                <a href="https://github.com/T-J-D-Cavey" target="_blank"><img src={github_icon} alt="The site creator's github page"/></a>
             </div>
         </footer>
     )

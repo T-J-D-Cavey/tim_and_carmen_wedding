@@ -91,7 +91,7 @@ export function Homepage() {
                     </div>
                 </div>
             </div>
-            <div className="section paypal_section_container flex_reverse double_height font_light large_font">
+            <div className="section paypal_section_container flex_reverse double_height font_light small_font">
                 <div className="box square font_normal">
                     <p>{t("homepage_paypal_message")}</p>
                     <p>{t("homepage_paypal_message2")}</p>

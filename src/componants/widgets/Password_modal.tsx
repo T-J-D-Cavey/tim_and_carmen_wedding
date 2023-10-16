@@ -36,11 +36,13 @@ export function Password_modal() {
   return (
     <>
       <Change_language />
-      <Button variant="primary" onClick={handleShow}>
-        {t("password_open")}
-      </Button>
+      <div className="password_container">
+        <Button variant="primary" onClick={handleShow}>
+          {t("password_open")}
+        </Button>
+      </div>
 
-      <Modal show={showModal} onHide={handleClose}>
+      <Modal show={showModal} onHide={handleClose} className="password_modal_container">
         <Modal.Header closeButton>
           {t("password_title")}
         </Modal.Header>
