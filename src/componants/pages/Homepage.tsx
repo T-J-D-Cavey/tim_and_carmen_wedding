@@ -79,15 +79,22 @@ export function Homepage() {
                         <div>
                             <p className='font_written mb_1'>{t("homepage_hope")}</p>
                         </div>
-                        <div>
+                        <div className="rsvp_container">
+                            <div className='font_main small_font font_extra_spacing'>{t("homepage_rsvp")}</div>
                             <p className='font_main v_small_font font_extra_spacing'>
                                 <a 
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSeHz_Ge78j_BSThaY3NEYHd7BEi1B8QtIjHvVNSlxrSCLrCBA/viewform?usp=sf_link"
                                     target="_blank">
-                                        {/* need to add two rsvp CTAs here and translate both again */}
-                                    {t("homepage_rsvp")}
+                                    {t("homepage_rsvp_english")}
                                 </a>
-                            </p>    
+                            </p>
+                            <p className='font_main v_small_font font_extra_spacing'>
+                                <a 
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSchjZ89KD92DKOF_IXVpQQN9FvQWRfLQg9dXMAKbenU78PoRA/viewform?usp=sf_link"
+                                    target="_blank">
+                                    {t("homepage_rsvp_mandarin")}
+                                </a>
+                            </p>     
                         </div>
                     </div>
                 </div>
@@ -157,11 +164,6 @@ export function Homepage() {
                 </div>
             </div>
             <div className="bottom_photo"></div>
-
-
-
-
-{/* Need to have the photo of us front on smilling at the bottom above the footer */}
         </div>
     )
 }
