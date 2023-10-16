@@ -84,6 +84,7 @@ export function Homepage() {
                                 <a 
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSeHz_Ge78j_BSThaY3NEYHd7BEi1B8QtIjHvVNSlxrSCLrCBA/viewform?usp=sf_link"
                                     target="_blank">
+                                        {/* need to add two rsvp CTAs here and translate both again */}
                                     {t("homepage_rsvp")}
                                 </a>
                             </p>    
