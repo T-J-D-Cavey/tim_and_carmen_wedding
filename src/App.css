@@ -274,15 +274,22 @@ a:hover, a:focus {
 }
 
 .hope_appear {
-    opacity: 0;
-    display: hidden;
-    transition: all 0.5s;
+    /* opacity: 0;
+    display: hidden; */
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.29, 1.61);
+    
+    perspective: 1000px;
+    transform: rotateX(90deg);
+    transform: translateY(-2rem);
+    transform-style: preserve-3d;
+    scale: 0.6;
 }
 
-.hope_appear.appear {
+/* .hope_appear.appear {
     opacity: 1;
     display: block;
-}
+} */
 
 .rsvp_container > * {
     margin-top: 0.5rem;
@@ -520,4 +527,17 @@ footer input[name="submit"] {
     }
   
 }
+
+/* ---->>>> Scroll event classes */
+
+.appear {
+    /* opacity: 1;
+    display: block; */
+    
+    transform: rotateX(0deg);
+    transform: translateY(0rem);
+    scale: 1;
+}
+
+
 

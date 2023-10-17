@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef } from "react";
-// import { Link } from "react-router-dom";
 import { throttle } from 'lodash';
 import { Change_language } from "../widgets/Change_language";
 import { UK_modal } from "../widgets/modals/UK_modal";
 import { Malaysia_modal } from "../widgets/modals/Malaysia_modal";
 import audio_file from '../../assets/wedding_bells_audio.wav';
+import { motion } from "framer-motion"
 
 export function Homepage() {
     const { t } = useTranslation();
@@ -101,7 +101,13 @@ export function Homepage() {
             </div>
             <div className="section paypal_section_container flex_reverse double_height font_light small_font">
                 <div className="box square font_normal">
-                    <p>{t("homepage_paypal_message")}</p>
+                <motion.div 
+                    initial={{ opacity: 0, y: -50, scale: 0.7 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    transition={{ duration: 0.5 }} 
+                >
+                    <p>
+                        {t("homepage_paypal_message")}</p>
                     <p>{t("homepage_paypal_message2")}</p>
                     <div className="paypal_box">
                         <form action="https://www.paypal.com/donate" method="post" target="_blank">
@@ -113,6 +119,7 @@ export function Homepage() {
                             <img alt="" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1"/>
                         </form>
                     </div>
+                    </motion.div>
                 </div>
                 <div className="box square background_image angpao_background">
                 </div>
