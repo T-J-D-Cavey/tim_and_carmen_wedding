@@ -1,57 +1,43 @@
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef } from "react";
-import { throttle } from 'lodash';
 import { Change_language } from "../widgets/Change_language";
 import { UK_modal } from "../widgets/modals/UK_modal";
 import { Malaysia_modal } from "../widgets/modals/Malaysia_modal";
 import audio_file from '../../assets/wedding_bells_audio.wav';
-import { motion } from "framer-motion"
+import { motion, useScroll, useMotionValueEvent } from "framer-motion"
 
 export function Homepage() {
     const { t } = useTranslation();
-    const hero_element = useRef<HTMLDivElement | null>(null);
-    const celebrate_element = useRef<HTMLDivElement | null>(null);
     const audioRef = useRef<HTMLAudioElement | null>(null);
-    const rsvp_element = useRef<HTMLDivElement | null>(null);
-    let play_count = 0;
-    const throttle_scroll_events = throttle(handle_scroll_effects, 333)
+    const hero = useRef<HTMLDivElement | null>(null);
+    // let play_count = 0;
+    const { scrollY } = useScroll();
 
-    function handle_scroll_effects() {
-        const hero_element_coords = hero_element.current!.getBoundingClientRect();
-        const celebrate_element_coords = celebrate_element.current!.getBoundingClientRect();
-        if(play_count < 1) {
+    useMotionValueEvent(scrollY, "change", (latest) => {
+        if(latest > 5 && latest < 500) {
             audioRef.current!.play();
-            play_count++;
+            //  play_count++; 
+            hero.current!.classList.add("hero_effects");
+            console.log('fires')
         }
-        if(hero_element_coords.top <= -5) {
-            hero_element.current!.classList.add('showH1');
-        }
-        if (hero_element_coords.bottom < 500 || hero_element_coords.top > -5) {
-            hero_element.current!.classList.remove('showH1');
-        }
-        if(window.innerHeight - celebrate_element_coords.bottom > 0) {
-            celebrate_element.current!.classList.add('appear');
-            rsvp_element.current!.classList.add('appear');
-        }
-        else {
-            celebrate_element.current!.classList.remove('appear');
-            rsvp_element.current!.classList.remove('appear');
-        }
-    }
 
+        else {
+            hero.current!.classList.remove("hero_effects");
+        }
+    })
     useEffect(() => {
-        window.addEventListener('scroll', throttle_scroll_events);
+    
 
         return () => {
-            window.removeEventListener('scroll', throttle_scroll_events);
+            // need to work out how to clean up uesMotionValueEvent
         }
-    }, [throttle_scroll_events])
+    }, [])
 
     return (
         <div>
             <audio ref={audioRef} src={audio_file} autoPlay />
-            <Change_language />
-            <div ref={hero_element} className="section home_hero">
+                <Change_language />
+            <div ref={hero} className="section home_hero">
                 <div className='hero_background'></div>
                 <div className="box font_light">
                     <div className='font_main'>
@@ -66,7 +52,7 @@ export function Homepage() {
             </div>
             <div className="section hope_container font_dark">
                 <div>
-                    <div ref={celebrate_element} className='hope_appear'>
+                    <div>
                         <p className='font_written mb_1'>{t("homepage_celebrate")}</p>
                         <div className="v_small_font font_extra_spacing">
                             <p>{t("homepage__uk_date")}</p>
@@ -75,7 +61,7 @@ export function Homepage() {
                     </div>
                 </div>
                 <div>
-                    <div ref={rsvp_element} className="hope_appear">
+                    <div className="hope_appear">
                         <div>
                             <p className='font_written mb_1'>{t("homepage_hope")}</p>
                         </div>
