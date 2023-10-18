@@ -1,25 +1,70 @@
-# tbc
+# Tim & Carmen's wedding page
 
-Audio provided by "mattew": https://freesound.org/people/mattew/
-Link to audio resource: https://freesound.org/people/mattew/sounds/40847/
-License for audio: https://creativecommons.org/licenses/by/4.0/
+Site address: tbc
 
-Photo by <a href="https://unsplash.com/@izuddinhelmi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Izuddin Helmi Adnan</a> on <a href="https://unsplash.com/photos/hAPjYHczkMY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+This password protected site is for invited guests to find out the details of the UK and Malaysian wedding of myself to fiance, Carmen, to RSVP and to contribute to our honeymoon PayPal fund.
+
+
+## Features
+
+A password protected site, with the succesful input added to the browser's local storage, preventing the invitee from having to submit it more than once. 
+
+This site uses the i18next library which has been used to store the site text in two languages, English and Mandarin, and which can be changed at the click of a button. No need to google translate, and the language changes instantly. 
+
+The site links to a Google Form in English and another in Mandarin for invitees to RSVP.
+
+Framer Motion handles scroll events and animations efficiently. A wedding bells audio greets the visitor when they first scroll, setting the scene. 
+
+It uses React Bootstrap modals, carousels and buttons for slick features.  
+
+A Redux store contains and provides all of the app's state. 
+ 
+Fast and Responsive for any screen size. 
+
+
+## Technologies Used
+
+- React 
+- React Router
+- Typscript
+- Vite
+- Bootstrap
+- CSS3
+- Redux / Toolkit
+- Framer Motion
+- I18next 
+- Gimp
+- Git / Github
+- NPM
+- VSCode
+- Netlify
+
+
+## Credits
+
+Audio provided by <a href="https://freesound.org/people/mattew/">mattew</a>on <a href="https://freesound.org/people/mattew/sounds/40847/">Freesound</a>. The license details can be found <a href="https://creativecommons.org/licenses/by/4.0/">here</a>.
   
 Photo by <a href="https://unsplash.com/@zhangtai?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tai Zhang</a> on <a href="https://unsplash.com/photos/cccApfCKJPY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-Photo by <a href="https://unsplash.com/@marbo777?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Martyna Bober</a> on <a href="https://unsplash.com/photos/5HbTZWqsEiU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-  Bristol Lantern Photo by https://www.pinterest.co.uk/pin/178666310189063632/
+Photo by <a href="https://www.pinterest.co.uk/minxnmojo/">Marie Saunders</a>, <a href="https://www.pinterest.co.uk/pin/178666310189063632/">here</a>.
 
-  photo of champaign flutes (might not be used): Photo by <a href="https://unsplash.com/@photos_by_lanty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Photos by Lanty</a> on <a href="https://unsplash.com/photos/yMY1QE5wpyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@photos_by_lanty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Photos by Lanty</a> on <a href="https://unsplash.com/photos/yMY1QE5wpyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
-  photo of ss great britain (might not be used): Photo by <a href="https://unsplash.com/@iankelsall1?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ian kelsall</a> on <a href="https://unsplash.com/photos/cYEEvaLu-go?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@iankelsall1?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ian kelsall</a> on <a href="https://unsplash.com/photos/cYEEvaLu-go?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-  (might not be used) Photo by <a href="https://unsplash.com/@sohl_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stacie Ong</a> on <a href="https://unsplash.com/photos/a-woman-in-a-red-dress-holding-a-cup-and-saucer-mFdzsskhZqY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@sohl_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stacie Ong</a> on <a href="https://unsplash.com/photos/a-woman-in-a-red-dress-holding-a-cup-and-saucer-mFdzsskhZqY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
-  (might not be used) Photo by <a href="https://unsplash.com/@ar__?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">AR</a> on <a href="https://unsplash.com/photos/XoayfATStyE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Photo by <a href="https://unsplash.com/@ar__?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">AR</a> on <a href="https://unsplash.com/photos/XoayfATStyE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-  github icon <a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   
-  arrow icon <a target="_blank" href="https://icons8.com/icon/60671/forward">Arrow</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/60671/forward">Arrow</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/13611/paypal">PayPal</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+Photo by <a href="https://unsplash.com/@dmfx_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Deb</a> on <a href="https://unsplash.com/photos/red-and-white-hanging-lantern-_VKrsEucMFk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+  
+## Contact me
+
+Thank you for reading and checking out Tim & Carmen's wedding page! Reach out to me on Github for any questions or feedback.

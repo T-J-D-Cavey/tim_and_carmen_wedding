@@ -9,7 +9,7 @@ export function Malaysia_carousel() {
       <Carousel.Item>
         <div className="carousel_image_container uk_carousel_image_1"></div>
           <Carousel.Caption>
-            <div className="carousel_text_container">
+            <div className="carousel_text_container first_slide_text_container">
               <div className="carousel_text_background"></div>
               <div>
                 <h3 className="large_font font_main">{t("malay_modal_title")}</h3>
@@ -69,7 +69,6 @@ export function Malaysia_carousel() {
                 <h3 className="large_font font_main">{t("malay_modal_travel_h2")}</h3>
                 <p>
                   <a 
-                  // need to update URL when venue confirmed:
                     href="https://visitbristol.co.uk/" 
                     className="small_font font_main"
                     target="_blank">{t("malay_modal_travel_a")}

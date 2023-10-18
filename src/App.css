@@ -183,7 +183,6 @@ a:hover, a:focus {
     height: 1.5rem;
 }
 
-
 /* ---->>>> Page section styles: */
 .section {
     height: 100vh;
@@ -353,7 +352,8 @@ a:hover, a:focus {
 }
 
 .kl_background {
-    background-image: url("/src/assets/images/kuala_lumpur_night.jpg");
+    background-image: url("/src/assets/images/single_red_lantern.jpg");
+    background-position: 43% top;
 }
 
 .bristol_background {
@@ -415,10 +415,14 @@ a:hover, a:focus {
     background-color: var(--background-colour-one);
     filter: blur(30px);
     opacity: 0.8;
-    width: 120%;
+    width: 100%;
     height: 120%;
     z-index: 3;
     border-radius: 10%;
+}
+
+.first_slide_text_container > * {
+    top: 5rem;
 }
 
 .carousel_text_container div:nth-child(2) {
@@ -550,8 +554,6 @@ footer input[name="submit"] {
     }
   
 }
-
-/* ---->>>> Scroll event classes */
 
 
 

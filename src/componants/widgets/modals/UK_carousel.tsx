@@ -9,7 +9,7 @@ export function UK_carousel() {
       <Carousel.Item>
         <div className="carousel_image_container uk_carousel_image_1"></div>
           <Carousel.Caption>
-            <div className="carousel_text_container">
+            <div className="carousel_text_container first_slide_text_container">
               <div className="carousel_text_background"></div>
               <div>
                 <h3 className="large_font font_main">{t("uk_modal_bristol_title")}</h3>
