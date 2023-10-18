@@ -7,15 +7,15 @@ This password protected site is for invited guests to find out the details of th
 
 ## Features
 
-A password protected site, with the succesful input added to the browser's local storage, preventing the invitee from having to submit it more than once. 
+A password protected site, with the successful input added to the browser's local storage, preventing the invited guest from having to submit it more than once. 
 
 This site uses the i18next library which has been used to store the site text in two languages, English and Mandarin, and which can be changed at the click of a button. No need to google translate, and the language changes instantly. 
 
-The site links to a Google Form in English and another in Mandarin for invitees to RSVP.
+The site links to a Google Form in English and another in Mandarin for invited guests to RSVP.
 
 Framer Motion handles scroll events and animations efficiently. A wedding bells audio greets the visitor when they first scroll, setting the scene. 
 
-It uses React Bootstrap modals, carousels and buttons for slick features.  
+It uses React Bootstrap modals, carousels and buttons for good looking, interactive componants.  
 
 A Redux store contains and provides all of the app's state. 
  
@@ -26,7 +26,7 @@ Fast and Responsive for any screen size.
 
 - React 
 - React Router
-- Typscript
+- TypeScript
 - Vite
 - Bootstrap
 - CSS3
@@ -46,7 +46,7 @@ Audio provided by <a href="https://freesound.org/people/mattew/">mattew</a>on <a
   
 Photo by <a href="https://unsplash.com/@zhangtai?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tai Zhang</a> on <a href="https://unsplash.com/photos/cccApfCKJPY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-Photo by <a href="https://www.pinterest.co.uk/minxnmojo/">Marie Saunders</a>, <a href="https://www.pinterest.co.uk/pin/178666310189063632/">here</a>.
+Photo by <a href="https://www.pinterest.co.uk/minxnmojo/">Marie Saunders</a>, <a href="https://www.pinterest.co.uk/pin/178666310189063632/">on Pinterest</a>.
 
 Photo by <a href="https://unsplash.com/@photos_by_lanty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Photos by Lanty</a> on <a href="https://unsplash.com/photos/yMY1QE5wpyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
