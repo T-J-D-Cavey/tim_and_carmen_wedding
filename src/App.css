@@ -143,7 +143,13 @@ a:hover, a:focus {
     font-family: var(--font-type-main);
 }
 
+.modal-header {
+    color: var(--font-colour-dark);
+    font-size: 1.1rem;
+}
+
 /* ---->>>> Language button: */
+
 .lang-btn-container {
     position: fixed;
     top: 0;
@@ -153,6 +159,12 @@ a:hover, a:focus {
     justify-content: end;
     align-items: center;
     z-index: 10;
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+.move_off_screen .lang-btn-container {
+    transform: translateX(100%);
 }
 
 .lang-btn-container > div {

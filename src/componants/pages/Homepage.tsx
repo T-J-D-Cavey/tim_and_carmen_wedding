@@ -10,17 +10,28 @@ export function Homepage() {
     const { t } = useTranslation();
     const audioRef = useRef<HTMLAudioElement | null>(null);
     const hero = useRef<HTMLDivElement | null>(null);
-    // let play_count = 0;
+    const lang = useRef<HTMLDivElement | null>(null);
     const { scrollY } = useScroll();
+    let timeout_id: number;
 
     useMotionValueEvent(scrollY, "change", (latest) => {
-        if(latest > 5 && latest < 500) {
-            audioRef.current!.play();
-            //  play_count++; 
-            hero.current!.classList.add("hero_effects");
-            console.log('fires')
+        clearTimeout(timeout_id);
+        if(!lang.current!.classList.contains('move_off_screen')) {
+            lang.current!.classList.add('move_off_screen');
         }
+        timeout_id = setTimeout(() => {
+            lang.current!.classList.remove('move_off_screen')
+        }, 2000)
 
+        if(!hero.current!.classList.contains("hero_effects") && latest > 500) return;
+
+        if(latest > 5 && latest < 500 && hero.current!.classList.contains("hero_effects")) return; 
+        
+        if(latest > 5 && latest < 500){
+            audioRef.current!.play();
+            hero.current!.classList.add("hero_effects");
+        }
+        
         else {
             hero.current!.classList.remove("hero_effects");
         }
@@ -36,7 +47,9 @@ export function Homepage() {
     return (
         <div>
             <audio ref={audioRef} src={audio_file} autoPlay />
+            <div ref={lang}>
                 <Change_language />
+            </div>
             <div ref={hero} className="section home_hero">
                 <div className='hero_background'></div>
                 <div className="box font_light">
