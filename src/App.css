@@ -168,11 +168,12 @@ a:hover, a:focus {
     align-items: center;
     z-index: 200;
     transform: translateX(0);
-    transition: all 2s;
+    transition: all 1s;
+    transition-timing-function: ease-out;
 }
 
 .move_off_screen .lang-btn-container {
-    transform: translateX(100%);
+    transform: translateX(80px);
 }
 
 .lang-btn-container > div {
@@ -349,7 +350,7 @@ a:hover, a:focus {
         transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 

@@ -22,7 +22,7 @@ export function Homepage() {
         }
         timeout_id = setTimeout(() => {
             lang.current!.classList.remove('move_off_screen')
-        }, 500)
+        }, 1000)
 
         if(!hero.current!.classList.contains("hero_effects") && latest > 500) return;
 
