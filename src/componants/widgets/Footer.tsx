@@ -1,4 +1,4 @@
-import github_icon from '../../assets/images/github_icon.png';
+import github_icon from '../../../public/images/github_icon.png';
 import { useTranslation } from "react-i18next";
 
 export function Footer() {

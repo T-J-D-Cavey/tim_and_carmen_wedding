@@ -2,9 +2,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { set_language, language_selector } from '../../redux/main_slice';
 import { useTranslation } from "react-i18next";
-import gb_flag from '../../assets/images/british_flag_icon.png';
-import china_flag from '../../assets/images/china_flag_icon.png';
-import arrow from '../../assets/images/arrow_icon.png'
+import gb_flag from '../../../public/images/british_flag_icon.png';
+import china_flag from '../../../public/images/china_flag_icon.png';
+import arrow from '../../../public/images/arrow_icon.png'
 
 export function Change_language() {
     const dispatch = useDispatch();
