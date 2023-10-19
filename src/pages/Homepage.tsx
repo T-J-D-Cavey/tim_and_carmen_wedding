@@ -13,6 +13,7 @@ export function Homepage() {
     const lang = useRef<HTMLDivElement | null>(null);
     const { scrollY } = useScroll();
     let timeout_id: number;
+    let count = 0;
 
     useMotionValueEvent(scrollY, "change", (latest) => {
         clearTimeout(timeout_id);
@@ -21,15 +22,18 @@ export function Homepage() {
         }
         timeout_id = setTimeout(() => {
             lang.current!.classList.remove('move_off_screen')
-        }, 1500)
+        }, 500)
 
         if(!hero.current!.classList.contains("hero_effects") && latest > 500) return;
 
         if(latest > 5 && latest < 500 && hero.current!.classList.contains("hero_effects")) return; 
         
         if(latest > 5 && latest < 500){
-            audioRef.current!.play();
             hero.current!.classList.add("hero_effects");
+            if(count === 0) {
+                audioRef.current!.play();
+                count++;
+            }
         }
         
         else {

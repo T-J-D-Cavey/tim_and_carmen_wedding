@@ -60,8 +60,11 @@ table {
 	border-spacing: 0;
 }
 
-/* ---->>>> Utility classes: */
+p {
+    word-wrap: break-word;
+}
 
+/* ---->>>> Utility classes: */
 .mt_1 {
     margin-top: 1rem;
 }
@@ -143,6 +146,11 @@ a:hover, a:focus {
     font-family: var(--font-type-main);
 }
 
+.form-control {
+    font-family: var(--font-type-main);
+    font-size: 1.2rem;
+}
+
 .modal-header {
     color: var(--font-colour-dark);
     font-size: 1.1rem;
@@ -211,6 +219,10 @@ a:hover, a:focus {
     height: 100vh;
     width: 100vw;
     padding: 10px 20px;
+}
+
+.square > * {
+    padding: 0 2rem;
 }
 
 /* ---->>>> Home page: */
@@ -284,7 +296,7 @@ a:hover, a:focus {
 .home_hero .box > * {
     font-size: 6.5rem;
     margin-top: 1.5rem;
-    text-shadow: 3px 3px #090c43;
+    text-shadow: 4px 4px 2px #090c43;
 }
 
 
@@ -555,6 +567,23 @@ footer input[name="submit"] {
   
 }
 
+/* ---->>>> Very small screens only: */
+
+@media screen and (max-width: 285px) {
+
+    .home_hero .box > * {
+        font-size: 2.8rem;
+    }
+
+    * {
+        max-width: 270px;
+    }
+
+    .square > * {
+        padding: 0;
+    }
+  
+}
 
 
 

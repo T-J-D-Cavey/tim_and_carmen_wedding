@@ -5,7 +5,7 @@ export function UK_carousel() {
   const { t } = useTranslation();
 
   return (
-    <Carousel fade>
+    <Carousel interval={8000}>
       <Carousel.Item>
         <div className="carousel_image_container uk_carousel_image_1"></div>
           <Carousel.Caption>
