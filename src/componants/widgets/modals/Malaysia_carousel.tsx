@@ -69,7 +69,7 @@ export function Malaysia_carousel() {
                 <h3 className="large_font font_main">{t("malay_modal_travel_h2")}</h3>
                 <p>
                   <a 
-                    href="https://visitbristol.co.uk/" 
+                    href="https://www.laidbacktrip.com/posts/kuala-lumpur-things-to-do" 
                     className="small_font font_main"
                     target="_blank">{t("malay_modal_travel_a")}
                   </a>
