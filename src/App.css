@@ -194,7 +194,7 @@ a:hover, a:focus {
 
 /* ---->>>> Page section styles: */
 .section {
-    height: 100vh;
+    height: 100svh;
     max-height: 200rem;
     min-height: 20rem;
     display: flex;
@@ -217,7 +217,7 @@ a:hover, a:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100svh;
     width: 100vw;
     padding: 10px 20px;
 }
@@ -230,7 +230,7 @@ a:hover, a:focus {
 
 .home_hero {
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100svh;
     position: relative;
     z-index: 100;
 }
@@ -306,7 +306,7 @@ a:hover, a:focus {
 }
 
 .hope_container > * {
-    height: 40vh;
+    height: 40svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -488,10 +488,10 @@ a:hover, a:focus {
 
 .bottom_photo {
     width: 100%;
-    height: 100vh;
+    height: 100svh;
     max-height: 70rem;
     min-height: 10rem;
-    background-image: url('../public/images/smile_forward_image.jpg');
+    background-image: url('../public/images/smile_forward_image_2.jpg');
     background-position: center top;
     background-repeat: none;
     background-size: cover;
@@ -559,7 +559,7 @@ footer input[name="submit"] {
     }
 
     .double_height {
-        height: 200vh;
+        height: 200svh;
     }
 
     .flex_reverse {
