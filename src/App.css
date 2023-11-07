@@ -487,7 +487,8 @@ a:hover, a:focus {
 }
 
 .malay_carousel_image_3 {
-    background-image: url("../public/images/temp_malay_meal.jpeg");
+    background-image: url("../public/images/concorde_hotel.jpeg");
+    background-position: 55% center;
 }
 
 .malay_carousel_image_4 {

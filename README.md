@@ -1,6 +1,6 @@
 # Tim & Carmen's wedding page
 
-<a href="https://timandcarmen-ourwedding2024.netlify.app/" target="_blank">Site address here</a>
+<a href="https://timandcarmen2024.netlify.app/" target="_blank">Site address here</a>
 
 This password protected site is for invited guests to find out the details of the UK and Malaysian wedding of myself to fiance, Carmen, to RSVP and to contribute to our honeymoon PayPal fund.
 
