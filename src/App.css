@@ -394,11 +394,15 @@ a:hover, a:focus {
 }
 
 .day_plan_container h3, .day_plan_container li {
+    margin-bottom: 1.5rem;
+}
+
+.day_plan_container h2 {
     margin-bottom: 1rem;
 }
 
 .day_plan_container h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 
