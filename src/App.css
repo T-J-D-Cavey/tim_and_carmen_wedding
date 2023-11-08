@@ -441,6 +441,10 @@ a:hover, a:focus {
     width: 100%;
 }
 
+.carousel_text_container .font_written {
+    font-size: 1.8rem;
+}
+
 
 .carousel_text_background {
     position: absolute;
