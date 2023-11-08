@@ -30,7 +30,7 @@
     "uk_day_plan_reception_time": "12PM",
     "uk_day_plan_reception": "WEDDING BREAKFAST AND SPEECHES",
     "uk_day_plan_reception_location": "HARBOUR HOUSE, BRISTOL",
-    "google_maps_location_here": "Google maps location here",
+    "google_maps_location_here": "GOOGLE MAPS LOCATION HERE",
     "uk_modal_bristol_title": "BRISTOL",
     "uk_modal_bristol_date": "25TH MAY 2024",
     "uk_modal_bristol_register_h2": "BRISTOL REGISTER OFFICE",
@@ -40,7 +40,7 @@
     "uk_modal_bristol_reception_time": "1PM",
     "uk_modal_bristol_reception_p": "The Harbour House is hosting us for drinks, food, speeches and to celebrate with all of you",
     "uk_modal_bristol_travel_h2": "TRAVELING TO BRISTOL?",
-    "uk_modal_bristol_travel_a": "Things to do and accomodation options in Bristol here",
+    "uk_modal_bristol_travel_a": "THINGS TO DO AND ACCOMMODATION OPTIONS IN BRISTOL HERE",
     "malay_day_plan_title": "Our Malaysian Wedding",
     "malay_day_plan_date": "16TH NOVEMBER 2024",
     "malay_day_plan_gatecrashing_time": "09:30AM",
@@ -67,5 +67,6 @@
     "malay_modal_meal_time": "7PM",
     "malay_modal_meal_p": "An eight course banquet and celebration with friends and family",
     "malay_modal_travel_h2": "TRAVELING TO KUALA LUMPUR?",
-    "malay_modal_travel_a": "Things to do and accomodation options in Kuala Lumpur here"
+    "malay_modal_travel_a": "THINGS TO DO AND ACCOMMODATION OPTIONS IN KUALA LUMPUR HERE",
+    "malay_modal_concord_discount": "The Concorde Kuala Lumpur Hotel are offering friends and family of the bride and groom discounted rates for rooms. Reach out to Carmen or Tim for details"
 }
