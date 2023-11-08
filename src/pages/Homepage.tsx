@@ -180,11 +180,13 @@ export function Homepage() {
                                 <h3>{t("malay_day_plan_date")}</h3>
                                 <ul>
                                     <li>
-                                        <p>{t("malay_day_plan_registration")}</p>
-                                        <p>{t("malay_day_plan_registration_location")}</p>
+                                        <p>{t("malay_day_plan_gatecrashing")}</p>
+                                        <p>{t("malay_day_plan_tea_ceremony")}</p>
+                                        <p>{t("malay_day_plan_cyberjaya_location")}</p>
                                     </li>    
                                     <li>
                                         <p>{t("malay_day_plan_reception")}</p>
+                                        <p>{t("malay_day_plan_banquet")}</p>
                                         <p>{t("malay_day_plan_reception_location")}</p>
                                     </li>
                                 </ul>
