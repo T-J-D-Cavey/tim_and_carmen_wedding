@@ -143,11 +143,11 @@ a:hover, a:focus {
 }
 
 .password_modal_container * {
-    font-family: var(--font-type-main);
+    font-family: var(--font-type-normal);
 }
 
 .form-control {
-    font-family: var(--font-type-main);
+    font-family: var(--font-type-normal);
     font-size: 1.2rem;
 }
 
