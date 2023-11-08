@@ -397,6 +397,15 @@ a:hover, a:focus {
     margin-bottom: 1rem;
 }
 
+.day_plan_container h3 {
+    font-size: 1.2rem;
+}
+
+
+.day_plan_container li p {
+    line-height: 1.5em;
+}
+
 /* ---->>>> Modals */ 
 
 .modal-content, .modal-header {
