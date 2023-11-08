@@ -49,8 +49,7 @@ export function UK_carousel() {
                 <p className="small_font font_main">{t("uk_modal_bristol_reception_p")}</p>
                 <p>
                   <a 
-                  // need to update URL when venue confirmed:
-                    href="https://www.google.com/maps/" 
+                    href="https://www.google.com/maps/place/Harbour+House+-+Restaurant,+Bar+%26+Terrace/@51.4491925,-2.5956274,17z/data=!3m1!4b1!4m6!3m5!1s0x48718f3531461afd:0x365aad8a09e322a2!8m2!3d51.4491925!4d-2.5930525!16s%2Fg%2F11jrlwbj53?hl=en&entry=ttu" 
                     className="small_font font_main"
                     target="_blank">{t("google_maps_location_here")}
                   </a>

@@ -475,7 +475,8 @@ a:hover, a:focus {
 }
 
 .uk_carousel_image_3 {
-    background-image: url("../public/images/bristol_reception.jpg");
+    background-image: url("../public/images/harbour-house-1.jpeg");
+    background-position: 80% bottom;
 }
 
 .uk_carousel_image_4 {
