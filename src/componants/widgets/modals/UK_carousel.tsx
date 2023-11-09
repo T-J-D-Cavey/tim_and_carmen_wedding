@@ -1,8 +1,17 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
 import { useTranslation } from "react-i18next";
+import { useNavigate } from 'react-router-dom';
 
 export function UK_carousel() {
   const { t } = useTranslation();
+
+  const navigate = useNavigate();
+
+  function onClickHander(e: React.MouseEvent<HTMLButtonElement>) {
+    e.preventDefault();
+    navigate("/uk-celebration-info-page");
+  }
 
   return (
     <Carousel fade interval={8000}>
@@ -64,14 +73,8 @@ export function UK_carousel() {
             <div className="carousel_text_container">
               <div className="carousel_text_background"></div>
               <div>
-                <h3 className="large_font font_main">{t("uk_modal_bristol_travel_h2")}</h3>
-                <p>
-                  <a 
-                    href="https://visitbristol.co.uk/" 
-                    className="v_small_font font_main"
-                    target="_blank">{t("uk_modal_bristol_travel_a")}
-                  </a>
-                </p>
+                <h3 className="large_font font_main">{t("uk_modal_bristol_what_to_expect_h3")}</h3>
+                <Button variant='primary' onClick={onClickHander}>{t("uk_modal_bristol_what_to_expect_button")}</Button>
               </div>
             </div>
           </Carousel.Caption>
