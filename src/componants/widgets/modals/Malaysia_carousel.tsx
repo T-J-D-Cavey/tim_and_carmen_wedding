@@ -1,8 +1,17 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
 import { useTranslation } from "react-i18next";
+import { useNavigate } from 'react-router-dom';
 
 export function Malaysia_carousel() {
   const { t } = useTranslation();
+
+  const navigate = useNavigate();
+
+  function onClickHander(e: React.MouseEvent<HTMLButtonElement>) {
+    e.preventDefault();
+    navigate("/kl-wedding-fact-sheet");
+  }
 
   return (
     <Carousel fade interval={8000}>
@@ -69,15 +78,8 @@ export function Malaysia_carousel() {
             <div className="carousel_text_container">
               <div className="carousel_text_background"></div>
               <div>
-                <h3 className="large_font font_main">{t("malay_modal_travel_h2")}</h3>
-                <p className="small_font font_written">{t("malay_modal_concord_discount")}</p>
-                <p>
-                  <a 
-                    href="https://www.laidbacktrip.com/posts/kuala-lumpur-things-to-do" 
-                    className="v_small_font font_main"
-                    target="_blank">{t("malay_modal_travel_a")}
-                  </a>
-                </p>
+                <h3 className="large_font font_main">{t("malay_modal_what_to_expect_h3")}</h3>
+                <Button variant='primary' onClick={onClickHander}>{t("malay_modal_what_to_expect_button")}</Button>
               </div>
             </div>
           </Carousel.Caption>
