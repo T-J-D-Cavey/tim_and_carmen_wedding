@@ -131,33 +131,9 @@ export function Homepage() {
             <p>{t("homepage_paypal_message")}</p>
             <p>{t("homepage_paypal_message2")}</p>
             <div className="paypal_box">
-              <form
-                action="https://www.paypal.com/donate"
-                method="post"
-                target="_blank"
-              >
-                <input type="hidden" name="business" value="E8GXZZ6J2WQUS" />
-                <input type="hidden" name="no_recurring" value="1" />
-                <input
-                  type="hidden"
-                  name="item_name"
-                  value={t("homepage_paypal_page_note")}
-                />
-                <input type="hidden" name="currency_code" value="GBP" />
-                <input
-                  type="image"
-                  src="https://pics.paypal.com/00/s/NmJhZDljMDctNjcxMy00NTY5LWI4Y2EtNGM4ODk0NDcxZjEw/file.PNG"
-                  name="submit"
-                  title="PayPal - The safer, easier way to pay online!"
-                  alt="Donate with PayPal button"
-                />
-                <img
-                  alt=""
-                  src="https://www.paypal.com/en_GB/i/scr/pixel.gif"
-                  width="1"
-                  height="1"
-                />
-              </form>
+              <a href="https://www.paypal.com/paypalme/timandcarmen2024" target="_blank">
+                <img src="../../public/images/paypal_icon.png" alt="PayPal logo"/>
+              </a>
             </div>
           </motion.div>
         </div>

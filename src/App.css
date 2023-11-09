@@ -334,6 +334,10 @@ a:hover, a:focus {
     margin-top: 0.5rem;
 }
 
+.paypal_section_container .box {
+    margin-top: 1.5rem;
+}
+
 .paypal_section_container .box p:nth-child(2) {
     margin-top: 2rem;
 }
@@ -347,10 +351,16 @@ a:hover, a:focus {
     margin-top: 2rem;
 }
 
-.box input[name="submit"] {
+.paypal_box {
     width: 4rem;
     height: 4rem;
     animation: 0.5s infinite ease-in-out alternate pulsatePaypal;
+    margin: 1.5rem auto 1.5rem auto;
+}
+
+.paypal_box img {
+    height: 100%;
+    width: 100%;
 }
 
 @keyframes pulsatePaypal {
