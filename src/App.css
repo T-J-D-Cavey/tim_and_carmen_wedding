@@ -102,6 +102,10 @@ p {
     font-size: 1.5rem;
 }
 
+.medium_v_small_font {
+    font-size: 1.25rem;
+}
+
 .large_font {
     font-size: 2rem;
 }
@@ -562,6 +566,25 @@ footer div:nth-child(2) img {
 footer input[name="submit"] {
     width: 2.5rem;
     height: 2.5rem;
+}
+/* ---->>>> fact sheet styles: */
+
+.fact-sheet_section_container {
+    width: 90%;
+    max-width: 40rem;
+    margin: 5vh auto;
+    text-align: center;
+    color: var(--font-colour-dark)
+}
+
+.fact-sheet_section_container div {
+    width: 100%;
+    padding: 1em 0.5em;
+}
+
+.fact-sheet_section_container li {
+    font-family: var(--font-type-normal);
+    padding: 0.5em 0;
 }
 
 /* ---->>>> Medium screens and above: */
