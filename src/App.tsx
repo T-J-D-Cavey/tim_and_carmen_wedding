@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { is_correct_selector, set_in_local_storage, in_local_storage_selector } from './redux/main_slice';
 import { Password_modal } from './componants/widgets/Password_modal.tsx';
 import { Homepage } from './pages/Homepage.tsx';
-import { UKPage } from './pages/UKpage.tsx';
+import { UKPage } from './pages/UKPage.tsx';
 import { KLPage } from './pages/KLPage.tsx';
 import { Footer } from './componants/widgets/Footer.tsx';
 import './App.css';
