@@ -100,7 +100,7 @@ export function Homepage() {
                 <div className="font_main small_font font_extra_spacing">
                   {t("homepage_rsvp")}
                 </div>
-                <p className="font_main v_small_font font_extra_spacing">
+                <p className="font_main v_small_font font_extra_spacing rsvp_margin_top">
                   <a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSeHz_Ge78j_BSThaY3NEYHd7BEi1B8QtIjHvVNSlxrSCLrCBA/viewform?usp=sf_link"
                     target="_blank"
@@ -116,13 +116,16 @@ export function Homepage() {
                     {t("homepage_rsvp_mandarin")}
                   </a>
                 </p>
+                <p className="font_main v_small_font font_extra_spacing rsvp_margin_top">
+                  {t("homepage_rsvp_deadline")}
+                </p>
               </div>
             </motion.div>
           </div>
         </div>
       </div>
       <div className="section paypal_section_container flex_reverse double_height font_light small_font">
-        <div className="box square font_normal">
+        <div className="box square font_normal paypal_text_container">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}

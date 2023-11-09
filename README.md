@@ -64,6 +64,9 @@ Photo by <a href="https://unsplash.com/@ar__?utm_content=creditCopyText&utm_medi
 
 Photo by <a href="https://unsplash.com/@dmfx_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Deb</a> on <a href="https://unsplash.com/photos/red-and-white-hanging-lantern-_VKrsEucMFk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
+<a target="_blank" href="https://icons8.com/icon/nQtyhesxmxhM/malaysia">Malaysia</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/t3NE3BsOAQwq/great-britain">Great Britain</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   
 ## Contact me
 

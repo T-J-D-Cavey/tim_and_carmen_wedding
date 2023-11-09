@@ -334,7 +334,11 @@ a:hover, a:focus {
     margin-top: 0.5rem;
 }
 
-.paypal_section_container .box {
+.rsvp_margin_top {
+    margin-top: 1rem;
+}
+
+.paypal_text_container {
     margin-top: 1.5rem;
 }
 
