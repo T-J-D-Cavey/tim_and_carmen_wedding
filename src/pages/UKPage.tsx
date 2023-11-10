@@ -105,7 +105,7 @@ export function UKPage() {
               drive to the recommended parking in Broadmead
             </li>
             <li>
-              If you were planning on spending a night or two, Bristol hosts
+              If you're staying in Bristol, the city hosts
               several high quality hotels.{"  "}
               <a
                 href="https://www.tripadvisor.co.uk/SmartDeals-g186220-Bristol_England-Hotel-Deals.html"

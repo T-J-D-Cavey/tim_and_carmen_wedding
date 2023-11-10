@@ -529,6 +529,7 @@ a:hover, a:focus {
 
 .malay_carousel_image_4 {
     background-image: url("../public/images/kl_towers_night.jpg");
+    scale: 1.1;
 }
 
 .bottom_photo {
