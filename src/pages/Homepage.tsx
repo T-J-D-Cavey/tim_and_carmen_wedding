@@ -5,6 +5,7 @@ import { UK_modal } from "../componants/widgets/modals/UK_modal";
 import { Malaysia_modal } from "../componants/widgets/modals/Malaysia_modal";
 import audio_file from "../assets/wedding_bells_audio.wav";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+import paypayIcon from "../../public/images/paypal_icon.png";
 
 export function Homepage() {
   const { t } = useTranslation();
@@ -131,12 +132,17 @@ export function Homepage() {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.9 }}
           >
-            <p>{t("homepage_paypal_message")}</p>
-            <p>{t("homepage_paypal_message2")}</p>
-            <div className="paypal_box">
-              <a href="https://www.paypal.com/paypalme/timandcarmen2024" target="_blank">
-                <img src="../../public/images/paypal_icon.png" alt="PayPal logo"/>
-              </a>
+            <div className="paypal_text_wrapper">
+              <p>{t("homepage_paypal_message")}</p>
+              <p>{t("homepage_paypal_message2")}</p>
+              <div className="paypal_box">
+                <a
+                  href="https://www.paypal.com/paypalme/timandcarmen2024"
+                  target="_blank"
+                >
+                  <img src={paypayIcon} alt="PayPal logo" />
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>
@@ -186,14 +192,14 @@ export function Homepage() {
                 <h3>{t("malay_day_plan_date")}</h3>
                 <ul>
                   <li>
-                  <p>{t("malay_day_plan_gatecrashing_time")}</p>
+                    <p>{t("malay_day_plan_gatecrashing_time")}</p>
                     <p>{t("malay_day_plan_gatecrashing")}</p>
                     <p>{t("malay_day_plan_tea_ceremony_time")}</p>
                     <p>{t("malay_day_plan_tea_ceremony")}</p>
                     <h3>{t("malay_day_plan_cyberjaya_location")}</h3>
                   </li>
                   <li>
-                  <p>{t("malay_day_plan_reception_time")}</p>
+                    <p>{t("malay_day_plan_reception_time")}</p>
                     <p>{t("malay_day_plan_reception")}</p>
                     <p>{t("malay_day_plan_banquet_time")}</p>
                     <p>{t("malay_day_plan_banquet")}</p>
