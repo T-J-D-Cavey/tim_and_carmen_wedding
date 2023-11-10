@@ -10,7 +10,7 @@ export function Malaysia_carousel() {
 
   function onClickHander(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
-    navigate("/kl-wedding-fact-sheet");
+    navigate("/kl-wedding-day-plan");
   }
 
   return (

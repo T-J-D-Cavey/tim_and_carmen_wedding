@@ -10,7 +10,7 @@ export function UK_carousel() {
 
   function onClickHander(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
-    navigate("/uk-celebration-fact-sheet");
+    navigate("/uk-celebration-day-plan");
   }
 
   return (

@@ -29,8 +29,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/uk-celebration-fact-sheet" element={<UKPage />} />
-        <Route path="/kl-wedding-fact-sheet" element={<KLPage />} />
+        <Route path="/uk-celebration-day-plan" element={<UKPage />} />
+        <Route path="/kl-wedding-day-plan" element={<KLPage />} />
         <Route  path="*" element={<Navigate to="/" />}/>
       </Routes>
       <Footer />
