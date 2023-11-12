@@ -393,12 +393,14 @@ a:hover, a:focus {
 }
 
 .angpao_background {
-    background-image: url("../public/images/angpoa1.jpg");
+    /* background-image: url("../public/images/angpoa1.jpg"); */
+    background-image: url("../public/images/tea_ceremony.jpg");
 }
 
 .kl_background {
-    background-image: url("../public/images/single_red_lantern.jpg");
-    background-position: 43% top;
+    /* background-image: url("../public/images/single_red_lantern.jpg");
+    background-position: 43% top; */
+    background-image: url("../public/images/temp_malay_meal.jpeg");
 }
 
 .bristol_background {
