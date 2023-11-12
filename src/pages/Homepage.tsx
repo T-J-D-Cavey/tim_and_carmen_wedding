@@ -78,7 +78,7 @@ export function Homepage() {
               transition={{ duration: 0.9 }}
             >
               <p className="font_written mb_1">{t("homepage_celebrate")}</p>
-              <div className="v_small_font font_extra_spacing">
+              <div className="v_small_font font_extra_spacing font_main">
                 <p>{t("homepage__uk_date")}</p>
                 <p>{t("homepage__uk_venue")}</p>
                 <p className="mt_1">{t("homepage__malay_date")}</p>

@@ -2,8 +2,9 @@
 
 :root {
     --font-type-main: 'Cormorant Garamond', serif;
-    --font-type-written: 'Tangerine', cursive;;
+    --font-type-written: 'Tangerine', cursive;
     --font-type-normal: 'Raleway', sans-serif;
+    --font-type-bold: 'Lato', sans-serif;
     --font-colour-dark: #090c43;
     --font-colour-dark-hover: navy;
     --font-colour-light: #ede2d6;
@@ -84,6 +85,10 @@ p {
 
 .font_normal {
     font-family: var(--font-type-normal);
+}
+
+.font_bold {
+    font-family: var(--font-type-bold);
 }
 
 .font_light {
@@ -581,8 +586,9 @@ footer div img {
 }
 
 .fact-sheet_section_container li {
-    font-family: var(--font-type-normal);
-    font-size: 1.2rem;
+    /* font-family: var(--font-type-normal); */
+    font-family: var(--font-type-bold);
+    font-size: 1rem;
     padding: 0.5em 0;
 }
 
