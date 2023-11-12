@@ -1,10 +1,14 @@
 import { useTranslation } from "react-i18next";
 import { useRef, useEffect } from "react";
 import { Change_language } from "../componants/widgets/Change_language";
-import { UK_modal } from "../componants/widgets/modals/UK_modal";
-import { Malaysia_modal } from "../componants/widgets/modals/Malaysia_modal";
+// import { UK_modal } from "../componants/widgets/modals/UK_modal";
+// import { Malaysia_modal } from "../componants/widgets/modals/Malaysia_modal";
 import audio_file from "../assets/wedding_bells_audio.wav";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+
+import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
+
 import paypayIcon from "../../public/images/paypal_icon.png";
 
 export function Homepage() {
@@ -15,6 +19,7 @@ export function Homepage() {
   const { scrollY } = useScroll();
   let timeout_id: number;
   let count = 0;
+  const navigate = useNavigate();
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     clearTimeout(timeout_id);
@@ -49,6 +54,15 @@ export function Homepage() {
   useEffect(() => {
     lang.current!.classList.add("move_off_screen");
   }, []);
+
+  function plan_button_handler(page: string) {
+    if (page === "uk") {
+      navigate("/uk-celebration-day-plan")
+    }
+    else {
+      navigate("/kl-wedding-day-plan")
+    }
+  }
 
   return (
     <div>
@@ -174,7 +188,10 @@ export function Homepage() {
                   </li>
                 </ul>
               </div>
-              <UK_modal />
+              {/* <UK_modal /> */}
+              <Button variant="primary" onClick={plan_button_handler.bind(null, "uk")}>
+                {t("button_details")}
+              </Button>
             </div>
           </motion.div>
         </div>
@@ -207,7 +224,10 @@ export function Homepage() {
                   </li>
                 </ul>
               </div>
-              <Malaysia_modal />
+              {/* <Malaysia_modal /> */}
+              <Button variant="primary" onClick={plan_button_handler.bind(null, "kl")}>
+                {t("button_details")}
+              </Button>
             </div>
           </motion.div>
         </div>
