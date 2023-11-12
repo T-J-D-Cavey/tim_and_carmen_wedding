@@ -3,7 +3,8 @@
 :root {
     --font-type-main: 'Cormorant Garamond', serif;
     --font-type-written: 'Tangerine', cursive;
-    --font-type-normal: 'Raleway', sans-serif;
+    /* --font-type-normal: 'Raleway', sans-serif; */
+    --font-type-normal: 'Lato', sans-serif;
     --font-type-bold: 'Lato', sans-serif;
     --font-colour-dark: #090c43;
     --font-colour-dark-hover: navy;
@@ -133,7 +134,7 @@ a:hover, a:focus {
     background-color: var(--background-colour-two);
     color: var(--background-colour-one);
     border-color: var(--background-colour-one);
-    font-family: var(--font-type-normal);
+    font-family: var(--font-type-bold);
 }
 
 .btn:hover, .btn-primary:hover {
@@ -152,11 +153,11 @@ a:hover, a:focus {
 }
 
 .password_modal_container * {
-    font-family: var(--font-type-normal);
+    font-family: var(--font-type-bold);
 }
 
 .form-control {
-    font-family: var(--font-type-normal);
+    font-family: var(--font-type-bold);
     font-size: 1.2rem;
 }
 
@@ -676,5 +677,8 @@ footer div img {
     padding-top: 1rem;
 }
 
+.paypal_text_wrapper {
+    max-width: 30rem;
+}
 
 
