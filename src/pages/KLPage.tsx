@@ -1,8 +1,12 @@
 import { useNavigate } from "react-router-dom";
-// import { Malaysia_carousel } from "../componants/widgets/modals/Malaysia_carousel";
+import { useEffect } from "react";
 import arrow_icon from "../../public/images/arrow_icon.png";
 
 export function KLPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
   function clickHander(e: React.MouseEvent<HTMLDivElement>) {
     e.preventDefault();
@@ -13,7 +17,6 @@ export function KLPage() {
       <div className="fact_sheet_arrow_icon" onClick={clickHander}>
         <img src={arrow_icon} alt="" />
       </div>
-      {/* <Malaysia_carousel /> */}
       <section className="fact-sheet_section_container v_small_font">
         <div className="fact-sheet_header_container">
           <h1 className="font_written mb_1">Our Malaysian Wedding</h1>
@@ -133,8 +136,9 @@ export function KLPage() {
               >
                 Concorde Kuala Lumpur hotel
               </a>{" "}
-              on the night of the wedding. The hotel is kindly offering friends and family of the bride and groom discounted
-              rates on their rooms. Reach out to Carmen or Tim for more details.
+              on the night of the wedding. The hotel is kindly offering friends
+              and family of the bride and groom discounted rates on their rooms.
+              Reach out to Carmen or Tim for more details.
             </li>
             <li>Content here is yet to be written</li>
           </ul>

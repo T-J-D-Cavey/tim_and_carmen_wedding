@@ -1,11 +1,16 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import arrow_icon from "../../public/images/arrow_icon.png";
 
 export function UKPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const navigate = useNavigate();
   function clickHander(e: React.MouseEvent<HTMLDivElement>) {
     e.preventDefault();
-    navigate('/');
+    navigate("/");
   }
   return (
     <>
@@ -105,8 +110,8 @@ export function UKPage() {
               drive to the recommended parking in Broadmead
             </li>
             <li>
-              If you're staying in Bristol, the city hosts
-              several high quality hotels.{"  "}
+              If you're staying in Bristol, the city hosts several high quality
+              hotels.{"  "}
               <a
                 href="https://www.tripadvisor.co.uk/SmartDeals-g186220-Bristol_England-Hotel-Deals.html"
                 target="_blank"
