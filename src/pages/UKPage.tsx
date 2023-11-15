@@ -36,20 +36,9 @@ export function UKPage() {
               for everyone.
             </li>
             <li>
-              Our slot is brief so we recommend you get there early.{"  "}
-              <a
-                href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
-                target="_blank"
-              >
-                There's of parking nearby
-              </a>
-              .
-            </li>
-            <li>
               We'll have photos outside after the marriage ceremony before
               heading to the reception which is only a five minute walk away.
             </li>
-            <li>Dress code is comfortable wedding attire.</li>
           </ul>
         </div>
         <div>
@@ -95,34 +84,6 @@ export function UKPage() {
         </div>
         <div>
           <h3 className="fact-sheet_list_header font_main medium_v_small_font">
-            Bristol Travel and Accommodation
-          </h3>
-          <ul>
-            <li>
-              Bristol Temple Meads is the main train station and is 15 minutes
-              walk from the Bristol Register Office, and 12 minutes walk from
-              Harbour House.
-            </li>
-            <li>
-              You're able to get into central Bristol by car. Traffic can be
-              heavy so allow plenty of time. If you're coming from East or North
-              of Bristol we recommend entering via the M32, from there a short
-              drive to the recommended parking in Broadmead
-            </li>
-            <li>
-              If you're staying in Bristol, the city hosts several high quality
-              hotels.{"  "}
-              <a
-                href="https://www.tripadvisor.co.uk/SmartDeals-g186220-Bristol_England-Hotel-Deals.html"
-                target="_blank"
-              >
-                Here is Tripadvisor's Top 10 Bristol Hotels.
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="fact-sheet_list_header font_main medium_v_small_font">
             Our Bristol Recommendations
           </h3>
           <ul>
@@ -147,6 +108,69 @@ export function UKPage() {
             </li>
           </ul>
         </div>
+        <div>
+          <h3 className="fact-sheet_list_header font_main medium_v_small_font">
+            Q&A
+          </h3>
+          <ul>
+            <h4 className="mt_1">What is the dress code?</h4>
+            <li>
+              The dress code is comfortable wedding guest attire. There are
+              cobbles lining the outside of the Bristol Register Office. So we would recommend wearing comfortable shoes.
+            </li>
+          <h4 className="mt_1">Is is easy to travel there by car?</h4>
+          <li>
+              You're able to get into central Bristol by car. Traffic can be
+              heavy so allow plenty of time. If you're coming from East or North
+              of Bristol we recommend entering via the M32, into Cabot Circus and Old Market.
+            </li>
+            <h4 className="mt_1">Where should I park?</h4>
+            <li>
+              The large{"  "}
+              <a
+                href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
+                target="_blank"
+              >
+                NCP Bristol Broadmead
+              </a>
+              {"  "} car park is 8 minutes walk from the Bristol Register
+              Office.{" "}
+              <a
+                href="https://www.google.com/maps/place/The+Grove+Car+Park,+Bristol+BS1+4QY/@51.4491652,-2.596059,18z/data=!4m6!3m5!1s0x48718e7f544d0a2b:0xd7f113d3d7b9971d!8m2!3d51.4491653!4d-2.5949688!16s%2Fg%2F11bvtb2xj8?entry=ttu"
+                target="_blank"
+              >
+                The Grove car park
+              </a>{" "}
+              is adjacent to Harbour House itself. Please be aware
+              that there is a clean air zone in central Bristol for a minority
+              of older vehicles.{" "}
+              <a
+                href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
+                target="_blank"
+              >
+                Vehicle checker here
+              </a>
+              .
+            </li>
+            <h4 className="mt_1">Is there a nearby train station?</h4>
+            <li>
+              Bristol Temple Meads is the main train station and is 15 minutes
+              walk from the Bristol Register Office, and 12 minutes walk from
+              Harbour House.
+            </li>
+            <h4 className="mt_1">Are there accomodation options in Bristol?</h4>
+            <li>
+              If you're staying in Bristol, the city hosts several high quality
+              hotels.{"  "}
+              <a
+                href="https://www.tripadvisor.co.uk/SmartDeals-g186220-Bristol_England-Hotel-Deals.html"
+                target="_blank"
+              >
+                Here is Tripadvisor's Top 10 Bristol Hotels.
+              </a>
+            </li>
+          </ul>
+        </div>
         <div className="fact-sheet_header_container">
           <h2 className="font_main small_font">
             Please RSVP{"  "}
@@ -157,7 +181,7 @@ export function UKPage() {
               here
             </a>
             {"  "}
-            by February 2024
+            by 31st January
           </h2>
           <h1 className="font_written mt_1">We can't wait to see you!</h1>
         </div>
