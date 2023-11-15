@@ -28,7 +28,7 @@ export function UKPage() {
           </h3>
           <ul>
             <li>
-              We have hired the Grand Council Chamber of Bristol Register Office
+              We've hired the Grand Council Chamber of Bristol Register Office
               from 11:15am - 11:45am for our marriage ceremony.
             </li>
             <li>
@@ -37,7 +37,7 @@ export function UKPage() {
             </li>
             <li>
               We'll have photos outside after the marriage ceremony before
-              heading to the reception which is only a five minute walk away.
+              heading to the reception which is a nine minute walk away.
             </li>
           </ul>
         </div>
@@ -47,21 +47,16 @@ export function UKPage() {
           </h3>
           <ul>
             <li>
-              This beautiful restaurant sits right on the canel and is a five
-              minute walk from the Bristol Register Office.
-            </li>
-            <li>
-              We'll have bubbly and canopes to start the celebration and a
-              buffet lunch will follow. A seating plan won't be provided and
-              there will be enought seats for everyone.
+              This beautiful restaurant sits right on the canal. We'll have
+              bubbly and canopes to start the celebration and a buffet lunch
+              will follow.
             </li>
             <li>
               We have the space for five hours. We'll be having speeches
-              throughout as we hear from the bride, the groom, both fathers and
-              a few special friends.
+              throughout as we hear from the bride, groom and a few special people.
             </li>
             <li>
-              Following food and speechers we'll create a dancefloor and get the
+              Following food and speeches we'll create a dancefloor and get the
               party started. Interested in DJ'ing? Reach out to Tim or Carmen.
             </li>
           </ul>
@@ -98,12 +93,12 @@ export function UKPage() {
                 target="_blank"
               >
                 Here is TimeOut magazine's top 20 things to do in Bristol
-              </a>
+              </a>. Their number 15 was the location of our first date... Number 19 our second!
             </li>
             <li>
               We'll be in Bristol in the days leading up to and after the
               celebration. We're based in Lockleaze, North Bristol. We'll have
-              friends and family from Malaysia, New Zealand and other far flung
+              friends and family from a few far flung
               places, so reach out to Tim or Carmen to arrange something.
             </li>
           </ul>
@@ -115,14 +110,16 @@ export function UKPage() {
           <ul>
             <h4 className="mt_1">What is the dress code?</h4>
             <li>
-              The dress code is comfortable wedding guest attire. There are
-              cobbles lining the outside of the Bristol Register Office. So we would recommend wearing comfortable shoes.
+              The dress code is wedding guest attire. There are
+              cobbles lining the outside of the Bristol Register Office. So we
+              would recommend wearing comfortable shoes.
             </li>
-          <h4 className="mt_1">Is is easy to travel there by car?</h4>
-          <li>
+            <h4 className="mt_1">Is it easy to travel there by car?</h4>
+            <li>
               You're able to get into central Bristol by car. Traffic can be
               heavy so allow plenty of time. If you're coming from East or North
-              of Bristol we recommend entering via the M32, into Cabot Circus and Old Market.
+              of Bristol we recommend entering via the M32, into Cabot Circus
+              and Old Market.
             </li>
             <h4 className="mt_1">Where should I park?</h4>
             <li>
@@ -141,9 +138,9 @@ export function UKPage() {
               >
                 The Grove car park
               </a>{" "}
-              is adjacent to Harbour House itself. Please be aware
-              that there is a clean air zone in central Bristol for a minority
-              of older vehicles.{" "}
+              is adjacent to Harbour House itself. Please be aware that there is
+              a clean air zone in central Bristol for a minority of older
+              vehicles.{" "}
               <a
                 href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
                 target="_blank"
@@ -158,7 +155,7 @@ export function UKPage() {
               walk from the Bristol Register Office, and 12 minutes walk from
               Harbour House.
             </li>
-            <h4 className="mt_1">Are there accomodation options in Bristol?</h4>
+            <h4 className="mt_1">Are there accommodation options in Bristol?</h4>
             <li>
               If you're staying in Bristol, the city hosts several high quality
               hotels.{"  "}
