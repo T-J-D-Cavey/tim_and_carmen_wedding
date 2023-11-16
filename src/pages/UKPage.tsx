@@ -99,7 +99,7 @@ export function UKPage() {
               We'll be in Bristol in the days leading up to and after the
               celebration. We're based in Lockleaze, North Bristol. We'll have
               friends and family from a few far flung
-              places, so reach out to Tim or Carmen to arrange something.
+              places, so reach out to Tim or Carmen in advance to arrange something.
             </li>
           </ul>
         </div>
@@ -108,21 +108,21 @@ export function UKPage() {
             Q&A
           </h3>
           <ul>
-            <h4 className="mt_1">What is the dress code?</h4>
-            <li>
+            <h4 className="mt_1">Q: What is the dress code?</h4>
+            <li>A: 
               The dress code is wedding guest attire. There are
               cobbles lining the outside of the Bristol Register Office. So we
               would recommend wearing comfortable shoes.
             </li>
-            <h4 className="mt_1">Is it easy to travel there by car?</h4>
-            <li>
+            <h4 className="mt_1">Q: Is it easy to travel there by car?</h4>
+            <li>A: 
               You're able to get into central Bristol by car. Traffic can be
               heavy so allow plenty of time. If you're coming from East or North
               of Bristol we recommend entering via the M32, into Cabot Circus
               and Old Market.
             </li>
-            <h4 className="mt_1">Where should I park?</h4>
-            <li>
+            <h4 className="mt_1">Q: Where should I park?</h4>
+            <li>A: 
               The large{"  "}
               <a
                 href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
@@ -149,14 +149,14 @@ export function UKPage() {
               </a>
               .
             </li>
-            <h4 className="mt_1">Is there a nearby train station?</h4>
-            <li>
+            <h4 className="mt_1">Q: Is there a nearby train station?</h4>
+            <li>A: 
               Bristol Temple Meads is the main train station and is 15 minutes
               walk from the Bristol Register Office, and 12 minutes walk from
               Harbour House.
             </li>
-            <h4 className="mt_1">Are there accommodation options in Bristol?</h4>
-            <li>
+            <h4 className="mt_1">Q: Are there accommodation options in Bristol?</h4>
+            <li>A: 
               If you're staying in Bristol, the city hosts several high quality
               hotels.{"  "}
               <a

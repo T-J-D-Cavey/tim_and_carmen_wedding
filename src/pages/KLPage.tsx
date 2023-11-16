@@ -161,7 +161,7 @@ export function KLPage() {
               here
             </a>
             {"  "}
-            by February 2024
+            by 31st January
           </h2>
           <h1 className="font_written mt_1">We can't wait to see you!</h1>
         </div>
