@@ -29,14 +29,15 @@ export function UKPage() {
           <ul>
             <li>
               We've hired the Grand Council Chamber of Bristol Register Office
-              from 11:15am - 11:45am for our marriage ceremony.
+              from 11:15am - 11:45am for our marriage registration ceremony. 
+              Please kindly be there on time for a prompt start. 
             </li>
             <li>
-              The room has a capacity of 150 seats, so there's plenty of space
+              The room has a capacity of 150 people, so there's plenty of space
               for everyone.
             </li>
             <li>
-              We'll have photos outside after the marriage ceremony before
+              We'll have photos outside after the marriage registration ceremony before
               heading to the reception which is a nine minute walk away.
             </li>
           </ul>
@@ -48,7 +49,7 @@ export function UKPage() {
           <ul>
             <li>
               This beautiful restaurant sits right on the canal. We'll have
-              bubbly and canopes to start the celebration and a buffet lunch
+              bubbly and canapes to start the celebration and a buffet lunch
               will follow.
             </li>
             <li>
@@ -86,14 +87,14 @@ export function UKPage() {
               We love Bristol and we would recommend you spend some time in the
               city to enjoy what it can offer.
             </li>
-            <li>
+            <li>Here is TimeOut magazine's 
               {" "}
               <a
                 href="https://www.timeout.com/bristol/things-to-do/20-great-things-to-do-in-bristol"
                 target="_blank"
               >
-                Here is TimeOut magazine's top 20 things to do in Bristol
-              </a>. Their number 15 was the location of our first date... Number 19 our second!
+                top 20 things to do in Bristol
+              </a>. Their number 15 was the location of our first date...number 19 our second!
             </li>
             <li>
               We'll be in Bristol in the days leading up to and after the
@@ -104,9 +105,7 @@ export function UKPage() {
           </ul>
         </div>
         <div>
-          <h3 className="fact-sheet_list_header font_main medium_v_small_font">
-            Q&A
-          </h3>
+        <h2 className="font_main small_font">Q&A</h2>
           <ul>
             <h4 className="mt_1">Q: What is the dress code?</h4>
             <li>A: 
