@@ -29,16 +29,16 @@ export function UKPage() {
           <ul>
             <li>
               We've hired the Grand Council Chamber of Bristol Register Office
-              from 11:15am - 11:45am for our marriage registration ceremony. 
-              Please kindly be there on time for a prompt start. 
+              from 11:15am - 11:45am for our marriage registration ceremony.
+              Please kindly be there on time for a prompt start.
             </li>
             <li>
               The room has a capacity of 150 people, so there's plenty of space
               for everyone.
             </li>
             <li>
-              We'll have photos outside after the marriage registration ceremony before
-              heading to the reception which is a nine minute walk away.
+              We'll have photos outside after the marriage registration ceremony
+              before heading to the reception which is a nine minute walk away.
             </li>
           </ul>
         </div>
@@ -54,7 +54,8 @@ export function UKPage() {
             </li>
             <li>
               We have the space for five hours. We'll be having speeches
-              throughout as we hear from the bride, groom and a few special people.
+              throughout as we hear from the bride, groom and a few special
+              people.
             </li>
             <li>
               Following food and speeches we'll create a dancefloor and get the
@@ -87,42 +88,50 @@ export function UKPage() {
               We love Bristol and we would recommend you spend some time in the
               city to enjoy what it can offer.
             </li>
-            <li>Here is TimeOut magazine's 
-              {" "}
+            <li>
+              Here is TimeOut magazine's{" "}
               <a
                 href="https://www.timeout.com/bristol/things-to-do/20-great-things-to-do-in-bristol"
                 target="_blank"
               >
                 top 20 things to do in Bristol
-              </a>. Their number 15 was the location of our first date...number 19 our second!
+              </a>
+              . Their number 15 was the location of our first date...number 19
+              our second!
             </li>
             <li>
               We'll be in Bristol in the days leading up to and after the
               celebration. We're based in Lockleaze, North Bristol. We'll have
-              friends and family from a few far flung
-              places, so reach out to Tim or Carmen in advance to arrange something.
+              friends and family from a few far flung places, so reach out to
+              Tim or Carmen in advance to arrange something.
             </li>
           </ul>
         </div>
         <div>
-        <h2 className="font_main small_font">Q&A</h2>
+          <h2 className="font_main small_font">Q&A</h2>
           <ul>
-            <h4 className="mt_1">Q: What is the dress code?</h4>
-            <li>A: 
-              The dress code is wedding guest attire. There are
-              cobbles lining the outside of the Bristol Register Office. So we
-              would recommend wearing comfortable shoes.
+            <h4 className="mt_1 font_main medium_v_small_font">
+              Q: What should I wear?
+            </h4>
+            <li>
+              A: The dress code is wedding guest attire. There are cobblestones
+              outside of the Bristol Register Office so we would recommend
+              wearing comfortable shoes.
             </li>
-            <h4 className="mt_1">Q: Is it easy to travel there by car?</h4>
-            <li>A: 
-              You're able to get into central Bristol by car. Traffic can be
+            <h4 className="mt_1 font_main medium_v_small_font">
+              Q: Is it easy to travel there by car?
+            </h4>
+            <li>
+              A: You're able to get into central Bristol by car. Traffic can be
               heavy so allow plenty of time. If you're coming from East or North
               of Bristol we recommend entering via the M32, into Cabot Circus
               and Old Market.
             </li>
-            <h4 className="mt_1">Q: Where should I park?</h4>
-            <li>A: 
-              The large{"  "}
+            <h4 className="mt_1 font_main medium_v_small_font">
+              Q: Where should I park?
+            </h4>
+            <li>
+              A: The large{"  "}
               <a
                 href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
                 target="_blank"
@@ -148,22 +157,34 @@ export function UKPage() {
               </a>
               .
             </li>
-            <h4 className="mt_1">Q: Is there a nearby train station?</h4>
-            <li>A: 
-              Bristol Temple Meads is the main train station and is 15 minutes
-              walk from the Bristol Register Office, and 12 minutes walk from
-              Harbour House.
+            <h4 className="mt_1 font_main medium_v_small_font">
+              Q: Is there a nearby train station?
+            </h4>
+            <li>
+              A: Bristol Temple Meads is the main train station and is 15
+              minutes walk from the Bristol Register Office, and 12 minutes walk
+              from Harbour House.
             </li>
-            <h4 className="mt_1">Q: Are there accommodation options in Bristol?</h4>
-            <li>A: 
-              If you're staying in Bristol, the city hosts several high quality
-              hotels.{"  "}
+            <h4 className="mt_1 font_main medium_v_small_font">
+              Q: Are there accommodation options in Bristol?
+            </h4>
+            <li>
+              A: If you're staying in Bristol, the city hosts several high
+              quality hotels. Here is Tripadvisor's {"  "}
               <a
                 href="https://www.tripadvisor.co.uk/SmartDeals-g186220-Bristol_England-Hotel-Deals.html"
                 target="_blank"
               >
-                Here is Tripadvisor's Top 10 Bristol Hotels.
+                Top 10 Bristol Hotels.
               </a>
+            </li>
+            <h4 className="mt_1 font_main medium_v_small_font">
+              Q: Is the wedding indoors or outdoors?
+            </h4>
+            <li>
+              Photos will be taken outside the Bristol Register Office after the
+              ceremoney. Unless you take a taxi there's a few minutes of walking
+              between the two venues. Other than that we are inside.
             </li>
           </ul>
         </div>
@@ -177,7 +198,7 @@ export function UKPage() {
               here
             </a>
             {"  "}
-            by 31st January
+            by 31st January 2024
           </h2>
           <h1 className="font_written mt_1">We can't wait to see you!</h1>
         </div>

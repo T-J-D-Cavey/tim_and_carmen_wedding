@@ -588,7 +588,7 @@ footer div img {
     padding: 1em 0.5em;
 }
 
-.fact-sheet_section_container li, .fact-sheet_section_container h4 {
+.fact-sheet_section_container li {
     font-family: var(--font-type-bold);
     font-size: 1rem;
     padding: 0.5em 0;
