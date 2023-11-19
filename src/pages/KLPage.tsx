@@ -31,7 +31,7 @@ export function KLPage() {
             <li>
               The fetching of the bride and gatecrashing games traditionally
               happens in the morning of a Chinese Malaysian wedding, and is
-              taking place in one of Carmen's family homes in
+              taking place in one of Carmen's family homes in{"  "}
               <a
                 href="https://www.google.com/maps/place/Isle+of+Kamares,+Setia+Eco+Glades/@2.9376358,101.6339128,19.09z/data=!4m10!1m2!2m1!1sSETIA+ECO+GLADES,+CYBERJAYA+kuala+lumpur!3m6!1s0x31cdb7eef2206123:0xaa00094464aed8c1!8m2!3d2.9376229!4d101.6348313!15sCihTRVRJQSBFQ08gR0xBREVTLCBDWUJFUkpBWUEga3VhbGEgbHVtcHVyWikiJ3NldGlhIGVjbyBnbGFkZXMgY3liZXJqYXlhIGt1YWxhIGx1bXB1cpIBD2hvdXNpbmdfc29jaWV0eZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSTk16UmZVMGgzRUFF4AEA!16s%2Fg%2F11h3jh81ry?entry=ttu"
                 target="_blank"
@@ -84,7 +84,7 @@ export function KLPage() {
           </h3>
           <ul>
             <li>
-              Join us for drinks at the beautiful cocktail bar at
+              Join us for drinks at the beautiful cocktail bar at{"  "}
               <a
                 href="https://kualalumpur.concordehotelsresorts.com/"
                 target="_blank"
@@ -121,7 +121,7 @@ export function KLPage() {
               The Yam Seng cheers will continue for at least three rounds before
               everyone is invited to return to their seats. The couple will then
               make their rounds and greet their guests at their respective
-              tables and more round of Yam Seng cheers will ensue.
+              tables and more rounds of Yam Seng cheers will ensue.
             </li>
           </ul>
         </div>
@@ -133,7 +133,7 @@ export function KLPage() {
             <li>
               Spanning two peninsulas and an impressive archipelago of islands
               offering lush rainforest, undulating tea country and sandy
-              beaches, tMalaysia is often neglected in favour of neighbouring
+              beaches, Malaysia is often neglected in favour of neighbouring
               Thailand, Indonesia or Singapore.
             </li>
             <li>
@@ -145,18 +145,12 @@ export function KLPage() {
               sun.
             </li>
             <li>
-              The Yam Seng cheers will continue for at least three rounds before
-              everyone is invited to return to their seats. The couple will then
-              make their rounds and greet their guests at their respective
-              tables and more round of Yam Seng cheers will ensue.
-            </li>
-            <li>
               A stopover in the capital, Kuala Lumpur where the wedding will be
               held, is a natural starting point for your adventure. From
               marveling at local architecture to sampling the tastiest street
               food at the world famous night markets and enjoying cocktails at
               skyscrapers with skyline views of Kuala Lumpur, here are some good
-              recommendations to start on.
+              recommendations to start on:
             </li>
             <li>
               What to do in Kuala Lumpur -{"  "}
@@ -235,12 +229,12 @@ export function KLPage() {
             </li>
             <li>
               The best airport to fly into Kuala Lumpur would be the Kuala
-              Lumpur International Airport (KLIA). The direct flight time is
-              typically 13 hours by Malaysia Airlines. If you prefer to break up
-              your flight journey and have a leg stretch in between, we would
-              recommend airlines which have a transit stop mid-way of the
-              journey such as Emirates (Dubai) or Etihad (Abu Dhabi). Other
-              notable airlines would be KLM or SIngapore Airlines but these have
+              Lumpur International Airport (KLIA). The direct flight time from
+              the UK is typically 13 hours by Malaysia Airlines. If you prefer
+              to break up your flight journey and have a leg stretch in between,
+              we would recommend airlines which have a transit stop mid-way of
+              the journey such as Emirates (Dubai) or Etihad (Abu Dhabi). Other
+              notable airlines would be KLM or Singapore Airlines but these have
               transit stops either closer to the start or end of the journey.
             </li>
             <li>
@@ -255,8 +249,15 @@ export function KLPage() {
               friends and family of the bride and groom discounted rates on
               their rooms either for that evening or for their full stay in
               Kuala Lumpur. Reach out to Carmen or Tim for more details.
-              Otherwise, here are recommendations on which neighbourhood in KL
-              to stay in.
+              Otherwise,{"  "}
+              <a
+                href="https://shewandersabroad.com/where-to-stay-in-kuala-lumpur/"
+                target="_blank"
+              >
+                here are recommendations
+              </a>
+              {"  "}
+              on which neighbourhood in KL to stay in.
             </li>
           </ul>
         </div>
@@ -267,69 +268,119 @@ export function KLPage() {
               Q: What should I wear?
             </h4>
             <li>
-              A: The dress code is wedding guest attire. There are cobblestones
-              outside of the Bristol Register Office so we would recommend
-              wearing comfortable shoes.
+              A: If you're joining the morning celebrations as a family member
+              or a guest, feel free to wear smart casual as some of the
+              gatecrashing games will happen outdoors where it may be rather hot
+              and humid. Please wear comfortable shoes which can be easily taken
+              off as it is common etiquette to remove shoes before entering
+              Chinese households.
+            </li>
+            <li>
+              We would suggest formal evening wear for the evening wedding
+              reception at the Concorde Hotel.
+            </li>
+            <li>
+              Please avoid wearing red as this is the bride's colour in the
+              morning ceremonies. Avoid wearing white or black. These colours
+              are often worn at Chinese funerals and therefore considered bad
+              luck, so best to stay away from wearing these colours. However,
+              black or white accents are just fine!
             </li>
             <h4 className="mt_1 font_main medium_v_small_font">
-              Q: Is it easy to travel there by car?
+              Q: What to gift the couple?
             </h4>
             <li>
-              A: You're able to get into central Bristol by car. Traffic can be
-              heavy so allow plenty of time. If you're coming from East or North
-              of Bristol we recommend entering via the M32, into Cabot Circus
-              and Old Market.
+              A: Chinese wedding traditions are very different from Western
+              wedding traditions, including wedding gifts. Traveling to Malaysia
+              to celebrate Tim and Carmen's union is already the greatest gift
+              to the couple. If you are stubborn and would still like to get
+              something for the newlyweds, then traditional Chinese wedding
+              gifts such as red packets and gold jewelry are the first choice of
+              gifts.
+            </li>
+            <li>
+              Red packet is called “hong bao” or “li shi” in Chinese, which
+              represents good fortune. The money stuffed red packet is the most
+              common and feasible Chinese wedding gift as it helps the newlyweds
+              to begin to establish their life together.
+            </li>
+            <li>
+              Gold jewelry is only typically given by the elders of the family
+              members during the morning tea ceremony. Since gold is the most
+              valuable item in Chinese culture, giving gold jewelry to the bride
+              represents that she is the most precious person in the family.
+            </li>
+            <li>
+              Older family members typically gift red packets and gold jewelry
+              in the morning tea ceremony where wedding guests gift red packets
+              to the wedding entourage desk at the evening reception when they
+              arrive.
             </li>
             <h4 className="mt_1 font_main medium_v_small_font">
-              Q: Where should I park?
+              Q: Is it easy to travel to all the locations over the day?
             </h4>
             <li>
-              A: The large{"  "}
-              <a
-                href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
-                target="_blank"
-              >
-                NCP Bristol Broadmead
-              </a>
-              {"  "} car park is 8 minutes walk from the Bristol Register
-              Office.{" "}
-              <a
-                href="https://www.google.com/maps/place/The+Grove+Car+Park,+Bristol+BS1+4QY/@51.4491652,-2.596059,18z/data=!4m6!3m5!1s0x48718e7f544d0a2b:0xd7f113d3d7b9971d!8m2!3d51.4491653!4d-2.5949688!16s%2Fg%2F11bvtb2xj8?entry=ttu"
-                target="_blank"
-              >
-                The Grove car park
-              </a>{" "}
-              is adjacent to Harbour House itself. Please be aware that there is
-              a clean air zone in central Bristol for a minority of older
-              vehicles.{" "}
-              <a
-                href="https://www.google.com/maps/place/NCP+Bristol+Broadmead/@51.4565202,-2.5878698,17z/data=!3m1!4b1!4m6!3m5!1s0x48718e7741f75485:0x8e4b523b8cd73674!8m2!3d51.4565202!4d-2.5852949!16s%2Fg%2F1tfjkl6s?entry=ttu"
-                target="_blank"
-              >
-                Vehicle checker here
-              </a>
-              .
+              A: If you're a non-Malaysian, we would suggest that you download
+              the Grab taxi app (equivalent of our Uber / Bolt in UK) to travel
+              to the morning ceremony location. Carmen's family homes are not
+              located near a public transport stop where it would be comfortable
+              to walk in such humid weather!
+            </li>
+            <li>
+              Concorde Hotel Kuala Lumpur is located in central Kuala Lumpur so
+              you can easily walk from your accommodation if you live nearby and
+              wish to do so. Otherwise, Bukit Nanas is the closest monorail
+              station which is a 2 minutes walk to the hotel or Grab taxi it is!
+            </li>
+            <li>
+              If you're a Malaysian and considering driving to the morning
+              ceremony location, can we please ask you to kindly carpool as much
+              as possible and let Carmen know your vehicle registration numbers
+              beforehand. Carmen's family home is in a high security and gated
+              neighbourhood so there will be limited parking spaces and will
+              require notification to the security guard house beforehand. If
+              you're driving to the Concorde Hotel in the evening, the hotel
+              parking fee is RM10 flat fee.
+            </li>
+            <li>
+              Traffic congestion in Kuala Lumpur may be bad during rush hour or
+              in the evenings so please allow sufficient amount of traveling
+              time to get to the respective locations if you're driving or in a
+              taxi.
             </li>
             <h4 className="mt_1 font_main medium_v_small_font">
-              Q: Is there a nearby train station?
+              Q: What will the weather be like in November?
             </h4>
             <li>
-              A: Bristol Temple Meads is the main train station and is 15
-              minutes walk from the Bristol Register Office, and 12 minutes walk
-              from Harbour House.
+              A: Hot and humid. Malaysia has only one season - summer; so
+              temperatures are usually in the low to mid 30s during the day
+              before cooling down to 20s in the evenings.
+            </li>
+            <li>
+              The eastern monsoon will hit Kuala Lumpur during November, but
+              even in the monsoon season, rainfall is still quite unpredictable.
+              Showers are always possible, but if you do encounter one, it's not
+              likely that it will ruin your day - you might even welcome it
+              after a scorching hot day of hiding in air-conditioned shopping
+              malls.
             </li>
             <h4 className="mt_1 font_main medium_v_small_font">
-              Q: Are there accommodation options in Bristol?
+              Q: Is the wedding indoors or outdoors?
             </h4>
             <li>
-              A: If you're staying in Bristol, the city hosts several high
-              quality hotels. Here is Tripadvisor's {"  "}
-              <a
-                href="https://www.tripadvisor.co.uk/SmartDeals-g186220-Bristol_England-Hotel-Deals.html"
-                target="_blank"
-              >
-                Top 10 Bristol Hotels.
-              </a>
+              The groom's procession and the start of the gatecrashing will be
+              outdoors, with the rest of the day to be indoors. It can be easily
+              flexed to be fully indoors if the weather turns sour in the
+              morning.
+            </li>
+            <h4 className="mt_1 font_main medium_v_small_font">
+              Q: Where would you recommend staying in Kuala Lumpur?
+            </h4>
+            <li>
+              As the wedding is only a full day long with only the morning
+              ceremony located outside central KL, we would recommend that you
+              base yourself in central KL or anywhere that has good train
+              links into the city where all the tourist attractions would be.
             </li>
           </ul>
         </div>
