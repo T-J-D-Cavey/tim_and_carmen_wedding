@@ -103,7 +103,7 @@ export function UKPage() {
               We'll be in Bristol in the days leading up to and after the
               celebration. We're based in Lockleaze, North Bristol. We'll have
               friends and family from a few far flung places, so reach out to
-              Tim or Carmen in advance to arrange something.
+              Carmen or Tim in advance to arrange something.
             </li>
           </ul>
         </div>
@@ -114,8 +114,8 @@ export function UKPage() {
               Q: What should I wear?
             </h4>
             <li>
-              A: The dress code is wedding guest attire. There are cobblestones
-              outside of the Bristol Register Office so we would recommend
+              A: We would suggest formal wedding attire. There are cobblestones
+              outside of the Bristol Register Office so would recommend
               wearing comfortable shoes.
             </li>
             <h4 className="mt_1 font_main medium_v_small_font">
