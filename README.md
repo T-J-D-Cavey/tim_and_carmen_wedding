@@ -43,18 +43,8 @@ Fast and Responsive for any screen size.
 ## Credits
 
 Audio provided by <a href="https://freesound.org/people/mattew/">mattew</a>on <a href="https://freesound.org/people/mattew/sounds/40847/">Freesound</a>. The license details can be found <a href="https://creativecommons.org/licenses/by/4.0/">here</a>.
-  
-Photo by <a href="https://unsplash.com/@zhangtai?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tai Zhang</a> on <a href="https://unsplash.com/photos/cccApfCKJPY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-Photo by <a href="https://www.pinterest.co.uk/minxnmojo/">Marie Saunders</a>, <a href="https://www.pinterest.co.uk/pin/178666310189063632/">on Pinterest</a>.
-
-Photo by <a href="https://unsplash.com/@photos_by_lanty?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Photos by Lanty</a> on <a href="https://unsplash.com/photos/yMY1QE5wpyA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@iankelsall1?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ian kelsall</a> on <a href="https://unsplash.com/photos/cYEEvaLu-go?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@sohl_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stacie Ong</a> on <a href="https://unsplash.com/photos/a-woman-in-a-red-dress-holding-a-cup-and-saucer-mFdzsskhZqY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@ar__?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">AR</a> on <a href="https://unsplash.com/photos/XoayfATStyE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 <a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   
@@ -62,16 +52,9 @@ Photo by <a href="https://unsplash.com/@ar__?utm_content=creditCopyText&utm_medi
 
 <a target="_blank" href="https://icons8.com/icon/13611/paypal">PayPal</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-Photo by <a href="https://unsplash.com/@dmfx_?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Deb</a> on <a href="https://unsplash.com/photos/red-and-white-hanging-lantern-_VKrsEucMFk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
 <a target="_blank" href="https://icons8.com/icon/nQtyhesxmxhM/malaysia">Malaysia</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 <a target="_blank" href="https://icons8.com/icon/t3NE3BsOAQwq/great-britain">Great Britain</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-Photo by <a href="https://unsplash.com/@marbo777?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Martyna Bober</a> on <a href="https://unsplash.com/photos/aerial-view-of-buildings-during-daytime-VdpUul8b_f8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@izuddinhelmi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Izuddin Helmi Adnan</a> on <a href="https://unsplash.com/photos/city-buildings-during-night-time-hAPjYHczkMY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
   
 ## Contact me
 
