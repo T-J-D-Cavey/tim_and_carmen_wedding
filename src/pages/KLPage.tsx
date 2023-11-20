@@ -30,20 +30,20 @@ export function KLPage() {
           <ul>
             <li>
               The fetching of the bride and gatecrashing games traditionally
-              happens in the morning of a Chinese Malaysian wedding, and is
+              happens in the morning of a Malaysian Chinese wedding, and is
               taking place in one of Carmen's family homes in{"  "}
               <a
-                href="https://www.google.com/maps/place/Isle+of+Kamares,+Setia+Eco+Glades/@2.9376358,101.6339128,19.09z/data=!4m10!1m2!2m1!1sSETIA+ECO+GLADES,+CYBERJAYA+kuala+lumpur!3m6!1s0x31cdb7eef2206123:0xaa00094464aed8c1!8m2!3d2.9376229!4d101.6348313!15sCihTRVRJQSBFQ08gR0xBREVTLCBDWUJFUkpBWUEga3VhbGEgbHVtcHVyWikiJ3NldGlhIGVjbyBnbGFkZXMgY3liZXJqYXlhIGt1YWxhIGx1bXB1cpIBD2hvdXNpbmdfc29jaWV0eZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSTk16UmZVMGgzRUFF4AEA!16s%2Fg%2F11h3jh81ry?entry=ttu"
+                href="https://www.google.com/maps/place/8,+Jalan+Setia+Marina+2%2F6,+Cyberjaya,+63000+Cyberjaya,+Selangor,+Malaysia/@2.9374212,101.6211728,15z/data=!3m1!4b1!4m6!3m5!1s0x31cdb6b8c01dcc2d:0x9d239945897f28d!8m2!3d2.9373998!4d101.6314725!16s%2Fg%2F11pdpxsd50?entry=ttu"
                 target="_blank"
               >
                 Setia Eco Glades, Cyberjaya
               </a>
             </li>
             <li>
-              Before we can meet as a couple, Tim has to gatecrash with the help of
-              his groomsmen as a test of his sincerity and love, and represented
-              by the reluctance of Carmen's family to marry their youngest
-              daughter off.
+              Before we can meet as a couple, Tim has to gatecrash with the help
+              of his groomsmen as a test of his sincerity and love, and
+              represented by the reluctance of Carmen's family to marry their
+              youngest daughter off.
             </li>
             <li>
               Everyone is welcome to observe this fun and exciting modern
@@ -59,17 +59,16 @@ export function KLPage() {
           <ul>
             <li>
               Taking place at the same location as the gatecrashing and dressed
-              in traditional Chinese wedding attire, we will pay
-              our respects by addressing our elders by their formal titles
-              and serving them a cup of tea. In return, their relatives will
-              gift us either a red packet or gold jewelry to
-              bless their union and welcome us into the family.
+              in traditional Chinese wedding attire, we will pay our respects by
+              addressing our elders by their formal titles and serving them a
+              cup of tea. In return, our relatives will gift us either a red
+              packet or gold jewelry to bless our union and welcome us into the
+              family.
             </li>
             <li>
-              The younger relatives will serve tea to the newlyweds by
-              addressing us by our new formal titles in the family. In
-              return, the bride and groom will gift them a red packet to thank
-              and bless them.
+              The younger relatives will serve us tea and address us by our new
+              formal titles in the family. In return, we will gift them a red
+              packet to thank and bless them.
             </li>
             <li>
               The morning ceremony including prayers to ancestors will be
@@ -108,14 +107,13 @@ export function KLPage() {
               wedding breakfast.
             </li>
             <li>
-              A Chinese wedding banquet is a spectacle to behold and an experience
-              to be had. We will have speeches from the bride,
-              groom and a few special people throughout the evening. The emcee
-              will then invite the couple and their families up on stage for a
-              lively toast known affectionately as Yam Seng. The emcee will cue
-              for the couple and their families on stage to start with a Yam
-              Seng cheer, and prompt the rest of the guests on the floor to
-              follow suit.
+              A Chinese wedding banquet is a spectacle to behold and an
+              experience to be had. We will have speeches from the bride, groom
+              and a few special people throughout the evening. The emcee will
+              then invite the couple and their families up on stage for a lively
+              toast known affectionately as Yam Seng. The emcee will cue for the
+              couple and their families on stage to start with a Yam Seng cheer,
+              and prompt the rest of the guests on the floor to follow suit.
             </li>
             <li>
               The Yam Seng cheers will continue for at least three rounds before
@@ -139,10 +137,10 @@ export function KLPage() {
             <li>
               Tim went to Malaysia for the first time early 2023 and has fallen
               in love with the cheap varied food and rich culture that the
-              country has to offer. We think Malaysia should be firmly at the top of
-              every discerning traveller's bucket list, and with its hot climate
-              year-round, it's a no brainer destination for a slice of winter
-              sun.
+              country has to offer. We think Malaysia should be firmly at the
+              top of every discerning traveller's bucket list, and with its hot
+              climate year-round, it's a no brainer destination for a slice of
+              winter sun.
             </li>
             <li>
               A stopover in the capital, Kuala Lumpur where the wedding will be
@@ -287,6 +285,22 @@ export function KLPage() {
               black or white accents are just fine!
             </li>
             <h4 className="mt_1 font_main medium_v_small_font">
+              Q: What dishes should I expect at a Chinese wedding banquet?
+            </h4>
+            <li>
+              A: Each and every entree dish served at a Chinese wedding banquet
+              is carefully selected and served for a reason, usually to do with
+              a certain blessing that is wished toward the lucky bride and
+              groom. These blessings often symbolize happiness,
+              prosperity, longevity or fertility. All eight Chinese (non-halal)
+              dishes will be shared by ten people at
+              each banquet table. Unfortunately the restaurant won't be able to
+              accomodate specific dietary requirements. If you are a vegan,
+              vegetarian, or can only consume halal food, please let Carmen know
+              such that she can arrange a separate meal that will be sourced
+              from outside of the restaurant.
+            </li>
+            <h4 className="mt_1 font_main medium_v_small_font">
               Q: What to gift the couple?
             </h4>
             <li>
@@ -336,11 +350,11 @@ export function KLPage() {
               If you're a Malaysian and considering driving to the morning
               ceremony location, can we please ask you to kindly carpool as much
               as possible and let Carmen know your vehicle registration numbers
-              beforehand. Carmen's family home is in a gated
-              neighbourhood so there will be limited parking spaces and will
-              require notification to the security guard house beforehand. If
-              you're driving to the Concorde Hotel in the evening, the hotel
-              parking fee is RM10 flat fee.
+              beforehand. Carmen's family home is in a gated neighbourhood so
+              there will be limited parking spaces and will require notification
+              to the security guard house beforehand. If you're driving to the
+              Concorde Hotel in the evening, the hotel parking fee is RM10 flat
+              fee.
             </li>
             <li>
               Traffic congestion in Kuala Lumpur may be bad during rush hour or
@@ -379,8 +393,8 @@ export function KLPage() {
             <li>
               As the wedding is only a full day long with only the morning
               ceremony located outside central KL, we would recommend that you
-              base yourself in central KL or anywhere that has good train
-              links into the city where all the tourist attractions would be.
+              base yourself in central KL or anywhere that has good train links
+              into the city where all the tourist attractions would be.
             </li>
           </ul>
         </div>
