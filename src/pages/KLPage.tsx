@@ -40,7 +40,7 @@ export function KLPage() {
               </a>
             </li>
             <li>
-              Before Tim can meet Carmen, he has to gatecrash with the help of
+              Before we can meet as a couple, Tim has to gatecrash with the help of
               his groomsmen as a test of his sincerity and love, and represented
               by the reluctance of Carmen's family to marry their youngest
               daughter off.
@@ -59,15 +59,15 @@ export function KLPage() {
           <ul>
             <li>
               Taking place at the same location as the gatecrashing and dressed
-              in traditional Chinese wedding attire, Tim and Carmen will pay
-              their respects by addressing their elders by their formal titles
+              in traditional Chinese wedding attire, we will pay
+              our respects by addressing our elders by their formal titles
               and serving them a cup of tea. In return, their relatives will
-              gift Tim and Carmen with either a red packet or gold jewelry to
-              bless their union and welcome them into the family.
+              gift us either a red packet or gold jewelry to
+              bless their union and welcome us into the family.
             </li>
             <li>
               The younger relatives will serve tea to the newlyweds by
-              addressing them by their new formal titles in the family. In
+              addressing us by our new formal titles in the family. In
               return, the bride and groom will gift them a red packet to thank
               and bless them.
             </li>
@@ -108,8 +108,8 @@ export function KLPage() {
               wedding breakfast.
             </li>
             <li>
-              A Chinese wedding banquet is a spectacle to behold, an experience
-              to be had and never quiet. We will have speeches from the bride,
+              A Chinese wedding banquet is a spectacle to behold and an experience
+              to be had. We will have speeches from the bride,
               groom and a few special people throughout the evening. The emcee
               will then invite the couple and their families up on stage for a
               lively toast known affectionately as Yam Seng. The emcee will cue
@@ -139,7 +139,7 @@ export function KLPage() {
             <li>
               Tim went to Malaysia for the first time early 2023 and has fallen
               in love with the cheap varied food and rich culture that the
-              country has to offer, so Malaysia should be firmly at the top of
+              country has to offer. We think Malaysia should be firmly at the top of
               every discerning traveller's bucket list, and with its hot climate
               year-round, it's a no brainer destination for a slice of winter
               sun.
@@ -336,7 +336,7 @@ export function KLPage() {
               If you're a Malaysian and considering driving to the morning
               ceremony location, can we please ask you to kindly carpool as much
               as possible and let Carmen know your vehicle registration numbers
-              beforehand. Carmen's family home is in a high security and gated
+              beforehand. Carmen's family home is in a gated
               neighbourhood so there will be limited parking spaces and will
               require notification to the security guard house beforehand. If
               you're driving to the Concorde Hotel in the evening, the hotel
