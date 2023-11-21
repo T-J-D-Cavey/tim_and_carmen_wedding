@@ -350,6 +350,7 @@ a:hover, a:focus {
 
 .paypal_text_wrapper {
     margin-top: 1.5rem;
+    line-height: 1.6;
 }
 
 .paypal_section_container .box p:nth-child(2) {
