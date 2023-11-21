@@ -592,6 +592,7 @@ footer div img {
     font-family: var(--font-type-bold);
     font-size: 1rem;
     padding: 0.5em 0;
+    line-height: 1.5;
 }
 
 .fact_sheet_arrow_icon {
