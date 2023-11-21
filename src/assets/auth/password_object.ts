@@ -3,5 +3,5 @@ interface password_object {
 }
 
 export const password: password_object = {
-    key: 'we hope you can make it'
+    key: 'wehopeyoucanmakeit'
 }

@@ -21,7 +21,8 @@ export function Password_modal() {
 
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    if(input.trim() === password.key) {
+    const formatted_input = input.replace(/\s/g, '');
+    if(formatted_input === password.key) {
       dispatch(set_is_correct(true));
       dispatch(set_show_modal(false));
       localStorage.setItem('tim_and_carmen_password', 'is_in_local_storage');
