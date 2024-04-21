@@ -183,7 +183,7 @@ export function UKPage() {
             </h4>
             <li>
              A: Photos will be taken outside the Bristol Register Office after the
-              ceremoney. Unless you take a taxi there's a few minutes of walking
+              ceremony. Unless you take a taxi there's a few minutes of walking
               between the two venues. Other than that we are inside.
             </li>
           </ul>
